@@ -8,9 +8,9 @@ from opensearchpy import OpenSearch, RequestsHttpConnection
 from datetime import datetime
 
 ## Initialise variables - Modified for localhost
-OSEndpoint = 'https://172.17.16.34:9200'
+OSEndpoint = 'https://52.66.102.200:9200'
 OS_USERNAME = 'admin'  # Default OpenSearch username, change as needed
-OS_PASSWORD = 'Meet@4317'  # Default OpenSearch password, change as needed
+OS_PASSWORD = 'Anubhav@321'  # Default OpenSearch password, change as needed
 
 # Local paths to the component and index templates
 component_templates_zip = './component_templates.zip'
