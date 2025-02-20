@@ -1,1 +1,2 @@
 schemas/extracted/*
+data/network-activity/network_activity_ingest.log
