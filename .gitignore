@@ -1,2 +1,3 @@
 schemas/extracted/*
 data/network-activity/network_activity_ingest.log
+data/network-activity/network_data/*
