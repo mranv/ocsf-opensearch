@@ -1,0 +1,15 @@
+[2024-01-20 08:15:23.456] user=john.doe pid=1234 action=create path=/home/users/documents/report.pdf size=2048576 permissions=644 owner=john.doe group=users
+[2024-01-20 08:15:24.789] user=jane.smith pid=1235 action=modify path=/var/www/html/index.html size=15360 permissions=644 owner=www-data group=www-data
+[2024-01-20 08:15:30.123] user=admin pid=1236 action=delete path=/tmp/temp_backup.zip size=52428800 permissions=600 owner=admin group=admin
+[2024-01-20 08:16:45.234] user=system pid=1237 action=rename path=/etc/config.old.json new_path=/etc/config.json size=4096 permissions=644 owner=root group=root
+[2024-01-20 08:17:12.345] user=jenkins pid=1238 action=create path=/var/jenkins/workspace/build-123/output.jar size=15728640 permissions=644 owner=jenkins group=jenkins
+[2024-01-20 08:18:03.678] user=mysql pid=1239 action=modify path=/var/lib/mysql/database/table.ibd size=1073741824 permissions=600 owner=mysql group=mysql
+[2024-01-20 08:19:56.789] user=root pid=1240 action=chmod path=/usr/local/bin/script.sh size=2048 permissions=755 owner=root group=root
+[2024-01-20 08:20:34.567] user=john.doe pid=1241 action=read path=/home/users/documents/confidential.docx size=5242880 permissions=600 owner=john.doe group=users
+[2024-01-20 08:21:00.890] user=backup pid=1242 action=create path=/backup/daily/backup_2024_01_20.tar.gz size=5368709120 permissions=644 owner=backup group=backup
+[2024-01-20 08:22:15.432] user=git pid=1243 action=modify path=/var/git/repo/.git/index size=16384 permissions=644 owner=git group=git
+[2024-01-20 08:23:45.678] user=admin pid=1244 action=delete path=/home/admin/temp/* size=0 permissions=644 owner=admin group=admin
+[2024-01-20 08:24:30.123] user=nginx pid=1245 action=create path=/var/log/nginx/access.log size=1048576 permissions=644 owner=nginx group=nginx
+[2024-01-20 08:25:00.456] user=elasticsearch pid=1246 action=modify path=/var/lib/elasticsearch/nodes/0/indices/1234 size=268435456 permissions=644 owner=elasticsearch group=elasticsearch
+[2024-01-20 08:26:12.789] user=root pid=1247 action=link path=/etc/nginx/sites-available/site.conf link_path=/etc/nginx/sites-enabled/site.conf size=1024 permissions=644 owner=root group=root
+[2024-01-20 08:27:23.012] user=tomcat pid=1248 action=create path=/var/log/tomcat/catalina.out size=2097152 permissions=644 owner=tomcat group=tomcat
