@@ -1,0 +1,16 @@
+2025-02-22 22:07:37,423 - INFO - Starting DNS activity event generation and upload
+2025-02-22 22:07:37,543 - INFO - PUT https://52.66.102.200:9200/_template/ocsf-1.1.0-4003-dns_activity [status:200 request:0.120s]
+2025-02-22 22:07:37,543 - INFO - Successfully created index template: ocsf-1.1.0-4003-dns_activity
+2025-02-22 22:07:37,543 - INFO - Processing batch 1
+2025-02-22 22:07:37,788 - INFO - POST https://52.66.102.200:9200/_bulk [status:200 request:0.244s]
+2025-02-22 22:07:37,788 - INFO - Batch 1: 5 successful, 0 failed
+2025-02-22 22:07:37,789 - INFO - Processing batch 2
+2025-02-22 22:07:37,816 - INFO - POST https://52.66.102.200:9200/_bulk [status:200 request:0.027s]
+2025-02-22 22:07:37,817 - INFO - Batch 2: 5 successful, 0 failed
+2025-02-22 22:07:37,817 - INFO - ==================================================
+2025-02-22 22:07:37,817 - INFO - Upload complete to index: ocsf-1.1.0-4003-dns_activity-2025.02.22-000000
+2025-02-22 22:07:37,817 - INFO - Total events processed: 10
+2025-02-22 22:07:37,817 - INFO - Successfully uploaded: 10
+2025-02-22 22:07:37,817 - INFO - Failed uploads: 0
+2025-02-22 22:07:37,817 - INFO - Success rate: 100.00%
+2025-02-22 22:07:37,817 - INFO - ==================================================
