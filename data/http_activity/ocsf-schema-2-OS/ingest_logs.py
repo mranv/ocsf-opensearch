@@ -23,7 +23,7 @@ class OCSFHttpActivityIngestor:
         opensearch_host: str = "https://52.66.102.200:9200",
         username: str = "admin",
         password: str = "Anubhav@321",
-        index_name: str = "ocsf-http-activity",
+        index_name: str = "ocsf-1.1.0-4002-http_activity",  # Changed default index name
         refresh_interval: int = 5  # seconds
     ):
         self.opensearch_host = opensearch_host
@@ -36,51 +36,77 @@ class OCSFHttpActivityIngestor:
     def create_index_template(self) -> bool:
         """Create or update index template"""
         template = {
-            "index_patterns": [f"{self.index_name}*"],
+            "index_patterns": ["ocsf-1.1.0-4002*"],
             "template": {
                 "settings": {
+                    "index.plugins.index_state_management.rollover_alias": "ocsf-1.1.0-4002-http_activity",
                     "number_of_shards": 1,
-                    "number_of_replicas": 1
+                    "number_of_replicas": 1,
+                    "index.max_docvalue_fields_search": 400,
+                    "index.mapping.total_fields.limit": 4000
                 },
                 "mappings": {
                     "properties": {
-                        "time": {"type": "date"},
-                        "http_request": {
-                            "properties": {
-                                "method": {"type": "keyword"},
-                                "url": {
-                                    "properties": {
-                                        "path": {"type": "keyword"},
-                                        "port": {"type": "integer"},
-                                        "scheme": {"type": "keyword"}
-                                    }
-                                }
-                            }
+                        "action": {
+                            "type": "keyword",
+                            "ignore_above": 64
                         },
-                        "http_response": {
-                            "properties": {
-                                "code": {"type": "integer"},
-                                "latency": {"type": "long"}
-                            }
+                        "action_id": {
+                            "type": "integer"
                         },
-                        "metadata": {
-                            "properties": {
-                                "version": {"type": "keyword"},
-                                "product": {
-                                    "properties": {
-                                        "name": {"type": "keyword"},
-                                        "vendor_name": {"type": "keyword"}
-                                    }
-                                }
-                            }
+                        "app_name": {
+                            "type": "keyword",
+                            "ignore_above": 64
+                        },
+                        "disposition": {
+                            "type": "keyword",
+                            "ignore_above": 64
+                        },
+                        "disposition_id": {
+                            "type": "integer"
                         }
                     }
                 }
+            },
+            "composed_of": [
+                "ocsf_1_1_0_api",
+                "ocsf_1_1_0_actor",
+                "ocsf_1_1_0_attacks",
+                "ocsf_1_1_0_authorizations",
+                "ocsf_1_1_0_base_event",
+                "ocsf_1_1_0_cloud",
+                "ocsf_1_1_0_connection_info",
+                "ocsf_1_1_0_dst_endpoint",
+                "ocsf_1_1_0_device",
+                "ocsf_1_1_0_enrichments",
+                "ocsf_1_1_0_firewall_rule",
+                "ocsf_1_1_0_http_cookies",
+                "ocsf_1_1_0_http_request",
+                "ocsf_1_1_0_http_response",
+                "ocsf_1_1_0_load_balancer",
+                "ocsf_1_1_0_malware",
+                "ocsf_1_1_0_metadata",
+                "ocsf_1_1_0_observables",
+                "ocsf_1_1_0_proxy_endpoint",
+                "ocsf_1_1_0_proxy_connection_information",
+                "ocsf_1_1_0_proxy_http_request",
+                "ocsf_1_1_0_proxy_http_response",
+                "ocsf_1_1_0_proxy_tls",
+                "ocsf_1_1_0_proxy_traffic",
+                "ocsf_1_1_0_src_endpoint",
+                "ocsf_1_1_0_tls",
+                "ocsf_1_1_0_traffic"
+            ],
+            "version": 1,
+            "_meta": {
+                "description": "4002 HTTP Activity - schema version OCSF v1.1.0"
             }
         }
 
         try:
-            url = f"{self.opensearch_host}/_index_template/{self.index_name}-template"
+            # Change the template name to match the pattern
+            template_name = "ocsf_1_1_0_4002_http_activity"
+            url = f"{self.opensearch_host}/_index_template/{template_name}"
             response = requests.put(
                 url,
                 json=template,
@@ -88,7 +114,7 @@ class OCSFHttpActivityIngestor:
                 verify=self.verify_ssl
             )
             response.raise_for_status()
-            logger.info("Index template created/updated successfully")
+            logger.info(f"Index template created/updated successfully: {template_name}")
             return True
         except Exception as e:
             logger.error(f"Failed to create index template: {e}")
