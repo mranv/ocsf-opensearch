@@ -39,7 +39,7 @@ def parse_log_line(line):
     return None
 
 # Read and parse log file
-with open('raw.log', 'r') as file:
+with open('apache_logs.log', 'r') as file:
     logs = []
     for line in file:
         parsed_line = parse_log_line(line)

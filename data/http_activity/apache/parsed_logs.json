@@ -1,0 +1,5602 @@
+[
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 201,
+                "bytes": 51461
+            },
+            "url": "/experiences",
+            "flavor": "1.1",
+            "request": {
+                "method": "GET"
+            },
+            "user_agent": {
+                "original": "Opera/9.32 (X11; Linux i686; en-US) Presto/2.9.247 Version/13.00",
+                "name": "Opera",
+                "version": "9.32",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "success",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "186.208.135.126",
+                "ip": "186.208.135.126",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "186.208.135.126 - - [22/Feb/2025:19:56:04 +0530] \"GET /experiences HTTP/1.1\" 201 51461 \"https://www.futureenvisioneer.org/deliver/whiteboard\" \"Opera/9.32 (X11; Linux i686; en-US) Presto/2.9.247 Version/13.00\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 416,
+                "bytes": 76937
+            },
+            "url": "/benchmark/maximize",
+            "flavor": "1.1",
+            "request": {
+                "method": "GET"
+            },
+            "user_agent": {
+                "original": "Opera/9.57 (X11; Linux i686; en-US) Presto/2.9.192 Version/13.00",
+                "name": "Opera",
+                "version": "9.57",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "137.210.41.120",
+                "ip": "137.210.41.120",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "137.210.41.120 - - [22/Feb/2025:19:56:04 +0530] \"GET /benchmark/maximize HTTP/1.0\" 416 76937 \"http://www.humanfunctionalities.name/incubate/wireless/next-generation/redefine\" \"Opera/9.57 (X11; Linux i686; en-US) Presto/2.9.192 Version/13.00\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 203,
+                "bytes": 46188
+            },
+            "url": "/deliver/proactive",
+            "flavor": "1.1",
+            "request": {
+                "method": "HEAD"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/5320 (KHTML, like Gecko) Chrome/36.0.825.0 Mobile Safari/5320",
+                "name": "Chrome Mobile",
+                "version": "36.0.825",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "success",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "176.17.95.168",
+                "ip": "176.17.95.168",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "176.17.95.168 - weber3201 [22/Feb/2025:19:56:04 +0530] \"HEAD /deliver/proactive HTTP/1.1\" 203 46188 \"https://www.chiefsynthesize.io/content/platforms\" \"Mozilla/5.0 (X11; Linux i686) AppleWebKit/5320 (KHTML, like Gecko) Chrome/36.0.825.0 Mobile Safari/5320\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 403,
+                "bytes": 7549
+            },
+            "url": "/magnetic",
+            "flavor": "1.1",
+            "request": {
+                "method": "DELETE"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; PPC Mac OS X 10_6_3) AppleWebKit/5340 (KHTML, like Gecko) Chrome/36.0.872.0 Mobile Safari/5340",
+                "name": "Chrome Mobile",
+                "version": "36.0.872",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.6.3",
+                    "version": "10.6.3",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "142.86.191.36",
+                "ip": "142.86.191.36",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "142.86.191.36 - - [22/Feb/2025:19:56:04 +0530] \"DELETE /magnetic HTTP/1.1\" 403 7549 \"https://www.dynamicintegrate.biz/back-end\" \"Mozilla/5.0 (Macintosh; PPC Mac OS X 10_6_3) AppleWebKit/5340 (KHTML, like Gecko) Chrome/36.0.872.0 Mobile Safari/5340\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 201,
+                "bytes": 39310
+            },
+            "url": "/vortals/functionalities/seize",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows; U; Windows 98; Win 9x 4.90) AppleWebKit/534.8.5 (KHTML, like Gecko) Version/6.2 Safari/534.8.5",
+                "name": "Safari",
+                "version": "6.2",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows ME",
+                    "version": "ME",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "success",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "127.7.168.216",
+                "ip": "127.7.168.216",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "127.7.168.216 - bartoletti1401 [22/Feb/2025:19:56:04 +0530] \"PATCH /vortals/functionalities/seize HTTP/1.0\" 201 39310 \"http://www.internalimplement.org/niches/robust/reintermediate\" \"Mozilla/5.0 (Windows; U; Windows 98; Win 9x 4.90) AppleWebKit/534.8.5 (KHTML, like Gecko) Version/6.2 Safari/534.8.5\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 304,
+                "bytes": 8353
+            },
+            "url": "/sexy/vertical",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; PPC Mac OS X 10_9_0 rv:6.0; en-US) AppleWebKit/534.44.5 (KHTML, like Gecko) Version/6.2 Safari/534.44.5",
+                "name": "Safari",
+                "version": "6.2",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.9.0",
+                    "version": "10.9.0",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "55.169.23.12",
+                "ip": "55.169.23.12",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "55.169.23.12 - - [22/Feb/2025:19:56:04 +0530] \"PATCH /sexy/vertical HTTP/1.0\" 304 8353 \"http://www.customermethodologies.org/distributed/initiatives\" \"Mozilla/5.0 (Macintosh; PPC Mac OS X 10_9_0 rv:6.0; en-US) AppleWebKit/534.44.5 (KHTML, like Gecko) Version/6.2 Safari/534.44.5\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 304,
+                "bytes": 29338
+            },
+            "url": "/24%2f7/bricks-and-clicks",
+            "flavor": "1.1",
+            "request": {
+                "method": "GET"
+            },
+            "user_agent": {
+                "original": "Opera/10.48 (Macintosh; Intel Mac OS X 10_7_8; en-US) Presto/2.13.177 Version/13.00",
+                "name": "Opera",
+                "version": "10.48",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.7.8",
+                    "version": "10.7.8",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "87.37.30.37",
+                "ip": "87.37.30.37",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "87.37.30.37 - - [22/Feb/2025:19:56:04 +0530] \"GET /24%2f7/bricks-and-clicks HTTP/2.0\" 304 29338 \"http://www.principaldistributed.com/bricks-and-clicks/plug-and-play/user-centric\" \"Opera/10.48 (Macintosh; Intel Mac OS X 10_7_8; en-US) Presto/2.13.177 Version/13.00\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 400,
+                "bytes": 29181
+            },
+            "url": "/interfaces/methodologies/e-markets",
+            "flavor": "1.1",
+            "request": {
+                "method": "HEAD"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/5330 (KHTML, like Gecko) Chrome/38.0.828.0 Mobile Safari/5330",
+                "name": "Chrome Mobile",
+                "version": "38.0.828",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "186.121.105.229",
+                "ip": "186.121.105.229",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "186.121.105.229 - crooks8201 [22/Feb/2025:19:56:04 +0530] \"HEAD /interfaces/methodologies/e-markets HTTP/1.1\" 400 29181 \"http://www.internationalplatforms.org/convergence\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/5330 (KHTML, like Gecko) Chrome/38.0.828.0 Mobile Safari/5330\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 400,
+                "bytes": 99153
+            },
+            "url": "/sticky/architectures",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows; U; Windows 98) AppleWebKit/535.36.3 (KHTML, like Gecko) Version/4.2 Safari/535.36.3",
+                "name": "Safari",
+                "version": "4.2",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 98",
+                    "version": "98",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "12.179.64.241",
+                "ip": "12.179.64.241",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "12.179.64.241 - kling6376 [22/Feb/2025:19:56:04 +0530] \"POST /sticky/architectures HTTP/2.0\" 400 99153 \"http://www.customerredefine.io/vertical/seamless\" \"Mozilla/5.0 (Windows; U; Windows 98) AppleWebKit/535.36.3 (KHTML, like Gecko) Version/4.2 Safari/535.36.3\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 100,
+                "bytes": 40567
+            },
+            "url": "/syndicate/e-tailers/architect",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/5361 (KHTML, like Gecko) Chrome/39.0.824.0 Mobile Safari/5361",
+                "name": "Chrome Mobile",
+                "version": "39.0.824",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "159.175.184.218",
+                "ip": "159.175.184.218",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "159.175.184.218 - - [22/Feb/2025:19:56:04 +0530] \"PATCH /syndicate/e-tailers/architect HTTP/2.0\" 100 40567 \"https://www.seniorinnovative.name/granular/open-source/bricks-and-clicks/e-business\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/5361 (KHTML, like Gecko) Chrome/39.0.824.0 Mobile Safari/5361\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 205,
+                "bytes": 56483
+            },
+            "url": "/networks/iterate",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows NT 6.0; en-US; rv:1.9.2.20) Gecko/1946-24-04 Firefox/37.0",
+                "name": "Firefox",
+                "version": "37.0",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows Vista",
+                    "version": "Vista",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "success",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "227.240.108.70",
+                "ip": "227.240.108.70",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "227.240.108.70 - - [22/Feb/2025:19:56:04 +0530] \"POST /networks/iterate HTTP/1.0\" 205 56483 \"http://www.legacydeploy.biz/global\" \"Mozilla/5.0 (Windows NT 6.0; en-US; rv:1.9.2.20) Gecko/1946-24-04 Firefox/37.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 503,
+                "bytes": 6197
+            },
+            "url": "/mesh",
+            "flavor": "1.1",
+            "request": {
+                "method": "PUT"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5 rv:7.0; en-US) AppleWebKit/536.36.2 (KHTML, like Gecko) Version/5.0 Safari/536.36.2",
+                "name": "Safari",
+                "version": "5.0",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.9.5",
+                    "version": "10.9.5",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "30.166.164.129",
+                "ip": "30.166.164.129",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "30.166.164.129 - - [22/Feb/2025:19:56:04 +0530] \"PUT /mesh HTTP/2.0\" 503 6197 \"http://www.investore-markets.com/synthesize/generate/iterate/leverage\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5 rv:7.0; en-US) AppleWebKit/536.36.2 (KHTML, like Gecko) Version/5.0 Safari/536.36.2\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 302,
+                "bytes": 65410
+            },
+            "url": "/users/deploy",
+            "flavor": "1.1",
+            "request": {
+                "method": "GET"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows 98) AppleWebKit/5362 (KHTML, like Gecko) Chrome/40.0.800.0 Mobile Safari/5362",
+                "name": "Chrome Mobile",
+                "version": "40.0.800",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 98",
+                    "version": "98",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "63.178.224.225",
+                "ip": "63.178.224.225",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "63.178.224.225 - - [22/Feb/2025:19:56:04 +0530] \"GET /users/deploy HTTP/1.0\" 302 65410 \"https://www.leaddeploy.net/reinvent/end-to-end/synthesize/web-enabled\" \"Mozilla/5.0 (Windows 98) AppleWebKit/5362 (KHTML, like Gecko) Chrome/40.0.800.0 Mobile Safari/5362\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 205,
+                "bytes": 9459
+            },
+            "url": "/matrix",
+            "flavor": "1.1",
+            "request": {
+                "method": "GET"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/5331 (KHTML, like Gecko) Chrome/38.0.858.0 Mobile Safari/5331",
+                "name": "Chrome Mobile",
+                "version": "38.0.858",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "success",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "47.210.160.89",
+                "ip": "47.210.160.89",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "47.210.160.89 - kuhn3453 [22/Feb/2025:19:56:04 +0530] \"GET /matrix HTTP/1.0\" 205 9459 \"https://www.globalrevolutionary.name/bleeding-edge/clicks-and-mortar/seamless\" \"Mozilla/5.0 (X11; Linux i686) AppleWebKit/5331 (KHTML, like Gecko) Chrome/38.0.858.0 Mobile Safari/5331\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 100,
+                "bytes": 24542
+            },
+            "url": "/transparent/cross-media/iterate/reinvent",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_9_10) AppleWebKit/5350 (KHTML, like Gecko) Chrome/39.0.830.0 Mobile Safari/5350",
+                "name": "Chrome Mobile",
+                "version": "39.0.830",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.9.10",
+                    "version": "10.9.10",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "205.181.107.186",
+                "ip": "205.181.107.186",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "205.181.107.186 - barrows6480 [22/Feb/2025:19:56:04 +0530] \"PATCH /transparent/cross-media/iterate/reinvent HTTP/1.1\" 100 24542 \"https://www.customerreintermediate.name/eyeballs/interactive/morph/strategize\" \"Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_9_10) AppleWebKit/5350 (KHTML, like Gecko) Chrome/39.0.830.0 Mobile Safari/5350\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 406,
+                "bytes": 18501
+            },
+            "url": "/synergies",
+            "flavor": "1.1",
+            "request": {
+                "method": "HEAD"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/5330 (KHTML, like Gecko) Chrome/39.0.882.0 Mobile Safari/5330",
+                "name": "Chrome Mobile",
+                "version": "39.0.882",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 8",
+                    "version": "8",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "189.183.194.191",
+                "ip": "189.183.194.191",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "189.183.194.191 - muller1520 [22/Feb/2025:19:56:04 +0530] \"HEAD /synergies HTTP/1.0\" 406 18501 \"https://www.dynamicturn-key.name/enhance/compelling/matrix\" \"Mozilla/5.0 (Windows NT 6.2) AppleWebKit/5330 (KHTML, like Gecko) Chrome/39.0.882.0 Mobile Safari/5330\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 503,
+                "bytes": 54676
+            },
+            "url": "/next-generation/aggregate/efficient",
+            "flavor": "1.1",
+            "request": {
+                "method": "HEAD"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows NT 5.2) AppleWebKit/5362 (KHTML, like Gecko) Chrome/38.0.815.0 Mobile Safari/5362",
+                "name": "Chrome Mobile",
+                "version": "38.0.815",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows XP",
+                    "version": "XP",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "4.101.205.68",
+                "ip": "4.101.205.68",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "4.101.205.68 - king7320 [22/Feb/2025:19:56:04 +0530] \"HEAD /next-generation/aggregate/efficient HTTP/1.0\" 503 54676 \"https://www.futurebrand.net/viral/back-end\" \"Mozilla/5.0 (Windows NT 5.2) AppleWebKit/5362 (KHTML, like Gecko) Chrome/38.0.815.0 Mobile Safari/5362\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 301,
+                "bytes": 16490
+            },
+            "url": "/value-added/matrix",
+            "flavor": "1.1",
+            "request": {
+                "method": "PUT"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_2 like Mac OS X; en-US) AppleWebKit/534.20.5 (KHTML, like Gecko) Version/4.0.5 Mobile/8B115 Safari/6534.20.5",
+                "name": "Mobile Safari",
+                "version": "4.0.5",
+                "os": {
+                    "name": "iOS",
+                    "full": "iOS 9.3.2",
+                    "version": "9.3.2",
+                    "device": {
+                        "name": "iPhone"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "186.144.7.115",
+                "ip": "186.144.7.115",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "186.144.7.115 - gislason7137 [22/Feb/2025:19:56:04 +0530] \"PUT /value-added/matrix HTTP/1.1\" 301 16490 \"http://www.futurepartnerships.info/global/dynamic/innovate/reintermediate\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_2 like Mac OS X; en-US) AppleWebKit/534.20.5 (KHTML, like Gecko) Version/4.0.5 Mobile/8B115 Safari/6534.20.5\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 403,
+                "bytes": 8147
+            },
+            "url": "/robust/infrastructures",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/5312 (KHTML, like Gecko) Chrome/36.0.880.0 Mobile Safari/5312",
+                "name": "Chrome Mobile",
+                "version": "36.0.880",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "41.163.48.67",
+                "ip": "41.163.48.67",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "41.163.48.67 - wisozk5370 [22/Feb/2025:19:56:04 +0530] \"POST /robust/infrastructures HTTP/1.0\" 403 8147 \"http://www.corporaterelationships.org/platforms/initiatives\" \"Mozilla/5.0 (X11; Linux i686) AppleWebKit/5312 (KHTML, like Gecko) Chrome/36.0.880.0 Mobile Safari/5312\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 205,
+                "bytes": 81315
+            },
+            "url": "/architect/methodologies/metrics",
+            "flavor": "1.1",
+            "request": {
+                "method": "HEAD"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows 95; en-US; rv:1.9.3.20) Gecko/1926-24-10 Firefox/37.0",
+                "name": "Firefox",
+                "version": "37.0",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 95",
+                    "version": "95",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "success",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "105.167.2.25",
+                "ip": "105.167.2.25",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "105.167.2.25 - beahan3323 [22/Feb/2025:19:56:04 +0530] \"HEAD /architect/methodologies/metrics HTTP/2.0\" 205 81315 \"http://www.humanmarkets.biz/mindshare/architect/harness/rich\" \"Mozilla/5.0 (Windows 95; en-US; rv:1.9.3.20) Gecko/1926-24-10 Firefox/37.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 405,
+                "bytes": 60206
+            },
+            "url": "/open-source/web+services",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/5352 (KHTML, like Gecko) Chrome/39.0.852.0 Mobile Safari/5352",
+                "name": "Chrome Mobile",
+                "version": "39.0.852",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "243.207.126.175",
+                "ip": "243.207.126.175",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "243.207.126.175 - - [22/Feb/2025:19:56:04 +0530] \"PATCH /open-source/web+services HTTP/1.1\" 405 60206 \"http://www.legacybenchmark.net/value-added\" \"Mozilla/5.0 (X11; Linux i686) AppleWebKit/5352 (KHTML, like Gecko) Chrome/39.0.852.0 Mobile Safari/5352\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 406,
+                "bytes": 8787
+            },
+            "url": "/incentivize/seamless",
+            "flavor": "1.1",
+            "request": {
+                "method": "PUT"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows; U; Windows NT 5.1) AppleWebKit/536.30.4 (KHTML, like Gecko) Version/4.0 Safari/536.30.4",
+                "name": "Safari",
+                "version": "4.0",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows XP",
+                    "version": "XP",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "183.168.192.85",
+                "ip": "183.168.192.85",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "183.168.192.85 - - [22/Feb/2025:19:56:04 +0530] \"PUT /incentivize/seamless HTTP/1.0\" 406 8787 \"https://www.internationalglobal.info/efficient/innovate/empower/revolutionary\" \"Mozilla/5.0 (Windows; U; Windows NT 5.1) AppleWebKit/536.30.4 (KHTML, like Gecko) Version/4.0 Safari/536.30.4\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 416,
+                "bytes": 30103
+            },
+            "url": "/markets/e-enable/bleeding-edge",
+            "flavor": "1.1",
+            "request": {
+                "method": "GET"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (X11; Linux i686; rv:5.0) Gecko/1997-26-04 Firefox/37.0",
+                "name": "Firefox",
+                "version": "37.0",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "76.108.132.123",
+                "ip": "76.108.132.123",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "76.108.132.123 - - [22/Feb/2025:19:56:04 +0530] \"GET /markets/e-enable/bleeding-edge HTTP/2.0\" 416 30103 \"https://www.customeropen-source.name/sticky\" \"Mozilla/5.0 (X11; Linux i686; rv:5.0) Gecko/1997-26-04 Firefox/37.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 205,
+                "bytes": 93787
+            },
+            "url": "/iterate/one-to-one",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_3) AppleWebKit/5362 (KHTML, like Gecko) Chrome/39.0.894.0 Mobile Safari/5362",
+                "name": "Chrome Mobile",
+                "version": "39.0.894",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.6.3",
+                    "version": "10.6.3",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "success",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "50.63.56.160",
+                "ip": "50.63.56.160",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "50.63.56.160 - swaniawski3077 [22/Feb/2025:19:56:04 +0530] \"PATCH /iterate/one-to-one HTTP/2.0\" 205 93787 \"https://www.directinterfaces.biz/e-business/dot-com/strategic/leverage\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_3) AppleWebKit/5362 (KHTML, like Gecko) Chrome/39.0.894.0 Mobile Safari/5362\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 200,
+                "bytes": 74754
+            },
+            "url": "/generate/end-to-end",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Opera/9.27 (X11; Linux i686; en-US) Presto/2.13.308 Version/11.00",
+                "name": "Opera",
+                "version": "9.27",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "success",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "204.162.24.233",
+                "ip": "204.162.24.233",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "204.162.24.233 - considine1524 [22/Feb/2025:19:56:04 +0530] \"PATCH /generate/end-to-end HTTP/1.0\" 200 74754 \"https://www.principalout-of-the-box.io/infomediaries/roi/solutions/back-end\" \"Opera/9.27 (X11; Linux i686; en-US) Presto/2.13.308 Version/11.00\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 401,
+                "bytes": 93022
+            },
+            "url": "/interfaces/portals/global",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Opera/9.22 (X11; Linux x86_64; en-US) Presto/2.8.208 Version/12.00",
+                "name": "Opera",
+                "version": "9.22",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "255.189.12.224",
+                "ip": "255.189.12.224",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "255.189.12.224 - - [22/Feb/2025:19:56:04 +0530] \"POST /interfaces/portals/global HTTP/1.1\" 401 93022 \"https://www.corporateroi.com/24/7\" \"Opera/9.22 (X11; Linux x86_64; en-US) Presto/2.8.208 Version/12.00\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 416,
+                "bytes": 39840
+            },
+            "url": "/optimize/efficient/incubate",
+            "flavor": "1.1",
+            "request": {
+                "method": "HEAD"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; PPC Mac OS X 10_6_4) AppleWebKit/5341 (KHTML, like Gecko) Chrome/39.0.888.0 Mobile Safari/5341",
+                "name": "Chrome Mobile",
+                "version": "39.0.888",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.6.4",
+                    "version": "10.6.4",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "127.105.123.4",
+                "ip": "127.105.123.4",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "127.105.123.4 - - [22/Feb/2025:19:56:04 +0530] \"HEAD /optimize/efficient/incubate HTTP/1.0\" 416 39840 \"http://www.forwardfacilitate.biz/24/7/user-centric/killer\" \"Mozilla/5.0 (Macintosh; PPC Mac OS X 10_6_4) AppleWebKit/5341 (KHTML, like Gecko) Chrome/39.0.888.0 Mobile Safari/5341\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 203,
+                "bytes": 43558
+            },
+            "url": "/b2b/dynamic",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Opera/10.74 (Windows 98; Win 9x 4.90; en-US) Presto/2.11.268 Version/13.00",
+                "name": "Opera",
+                "version": "10.74",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows ME",
+                    "version": "ME",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "success",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "219.88.174.83",
+                "ip": "219.88.174.83",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "219.88.174.83 - - [22/Feb/2025:19:56:04 +0530] \"POST /b2b/dynamic HTTP/1.0\" 203 43558 \"https://www.productevolve.io/cross-media/synthesize/bleeding-edge\" \"Opera/10.74 (Windows 98; Win 9x 4.90; en-US) Presto/2.11.268 Version/13.00\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 401,
+                "bytes": 39277
+            },
+            "url": "/target/reinvent/real-time",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (X11; Linux x86_64; rv:5.0) Gecko/1900-11-02 Firefox/35.0",
+                "name": "Firefox",
+                "version": "35.0",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "28.101.57.235",
+                "ip": "28.101.57.235",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "28.101.57.235 - quigley2582 [22/Feb/2025:19:56:04 +0530] \"PATCH /target/reinvent/real-time HTTP/1.1\" 401 39277 \"https://www.nationalmetrics.info/mesh\" \"Mozilla/5.0 (X11; Linux x86_64; rv:5.0) Gecko/1900-11-02 Firefox/35.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 203,
+                "bytes": 55409
+            },
+            "url": "/integrated/unleash/synthesize/deliverables",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows NT 5.01; en-US; rv:1.9.1.20) Gecko/1911-29-12 Firefox/36.0",
+                "name": "Firefox",
+                "version": "36.0",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 2000",
+                    "version": "2000",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "success",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "111.108.19.195",
+                "ip": "111.108.19.195",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "111.108.19.195 - - [22/Feb/2025:19:56:04 +0530] \"POST /integrated/unleash/synthesize/deliverables HTTP/1.0\" 203 55409 \"https://www.regionalconvergence.org/open-source\" \"Mozilla/5.0 (Windows NT 5.01; en-US; rv:1.9.1.20) Gecko/1911-29-12 Firefox/36.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 404,
+                "bytes": 15406
+            },
+            "url": "/networks/action-items",
+            "flavor": "1.1",
+            "request": {
+                "method": "PUT"
+            },
+            "user_agent": {
+                "original": "Opera/10.73 (Macintosh; U; PPC Mac OS X 10_8_8; en-US) Presto/2.12.294 Version/10.00",
+                "name": "Opera",
+                "version": "10.73",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.8.8",
+                    "version": "10.8.8",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "183.87.136.52",
+                "ip": "183.87.136.52",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "183.87.136.52 - - [22/Feb/2025:19:56:04 +0530] \"PUT /networks/action-items HTTP/2.0\" 404 15406 \"http://www.futureseamless.net/killer\" \"Opera/10.73 (Macintosh; U; PPC Mac OS X 10_8_8; en-US) Presto/2.12.294 Version/10.00\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 501,
+                "bytes": 80555
+            },
+            "url": "/deploy/visualize/cross-media",
+            "flavor": "1.1",
+            "request": {
+                "method": "DELETE"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/5350 (KHTML, like Gecko) Chrome/39.0.882.0 Mobile Safari/5350",
+                "name": "Chrome Mobile",
+                "version": "39.0.882",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "109.99.168.27",
+                "ip": "109.99.168.27",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "109.99.168.27 - maggio6701 [22/Feb/2025:19:56:04 +0530] \"DELETE /deploy/visualize/cross-media HTTP/1.0\" 501 80555 \"http://www.globaltransform.com/enable/revolutionary/innovate/leading-edge\" \"Mozilla/5.0 (X11; Linux i686) AppleWebKit/5350 (KHTML, like Gecko) Chrome/39.0.882.0 Mobile Safari/5350\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 304,
+                "bytes": 85567
+            },
+            "url": "/monetize",
+            "flavor": "1.1",
+            "request": {
+                "method": "GET"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows NT 5.2) AppleWebKit/5312 (KHTML, like Gecko) Chrome/39.0.836.0 Mobile Safari/5312",
+                "name": "Chrome Mobile",
+                "version": "39.0.836",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows XP",
+                    "version": "XP",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "241.254.22.23",
+                "ip": "241.254.22.23",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "241.254.22.23 - schoen1167 [22/Feb/2025:19:56:04 +0530] \"GET /monetize HTTP/2.0\" 304 85567 \"https://www.legacytechnologies.net/sexy\" \"Mozilla/5.0 (Windows NT 5.2) AppleWebKit/5312 (KHTML, like Gecko) Chrome/39.0.836.0 Mobile Safari/5312\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 205,
+                "bytes": 49022
+            },
+            "url": "/clicks-and-mortar/transform/incubate/recontextualize",
+            "flavor": "1.1",
+            "request": {
+                "method": "HEAD"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_9 rv:7.0) Gecko/1961-24-12 Firefox/36.0",
+                "name": "Firefox",
+                "version": "36.0",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.6.9",
+                    "version": "10.6.9",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "success",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "69.44.10.105",
+                "ip": "69.44.10.105",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "69.44.10.105 - - [22/Feb/2025:19:56:04 +0530] \"HEAD /clicks-and-mortar/transform/incubate/recontextualize HTTP/2.0\" 205 49022 \"https://www.futureparadigms.net/leading-edge/target/morph\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_9 rv:7.0) Gecko/1961-24-12 Firefox/36.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 416,
+                "bytes": 84929
+            },
+            "url": "/users/24%2f365/clicks-and-mortar",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_2 rv:6.0) Gecko/2015-07-02 Firefox/35.0",
+                "name": "Firefox",
+                "version": "35.0",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.5.2",
+                    "version": "10.5.2",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "34.77.243.250",
+                "ip": "34.77.243.250",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "34.77.243.250 - schumm5181 [22/Feb/2025:19:56:04 +0530] \"POST /users/24%2f365/clicks-and-mortar HTTP/2.0\" 416 84929 \"https://www.dynamicinnovate.org/open-source\" \"Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_2 rv:6.0) Gecko/2015-07-02 Firefox/35.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 302,
+                "bytes": 15017
+            },
+            "url": "/synergistic",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows; U; Windows NT 6.1) AppleWebKit/534.38.7 (KHTML, like Gecko) Version/5.0 Safari/534.38.7",
+                "name": "Safari",
+                "version": "5.0",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 7",
+                    "version": "7",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "24.127.94.165",
+                "ip": "24.127.94.165",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "24.127.94.165 - - [22/Feb/2025:19:56:04 +0530] \"POST /synergistic HTTP/2.0\" 302 15017 \"https://www.centralreintermediate.org/integrate/turn-key/repurpose\" \"Mozilla/5.0 (Windows; U; Windows NT 6.1) AppleWebKit/534.38.7 (KHTML, like Gecko) Version/5.0 Safari/534.38.7\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 205,
+                "bytes": 40422
+            },
+            "url": "/networks",
+            "flavor": "1.1",
+            "request": {
+                "method": "PUT"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows NT 5.0) AppleWebKit/5311 (KHTML, like Gecko) Chrome/40.0.882.0 Mobile Safari/5311",
+                "name": "Chrome Mobile",
+                "version": "40.0.882",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 2000",
+                    "version": "2000",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "success",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "127.163.149.248",
+                "ip": "127.163.149.248",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "127.163.149.248 - - [22/Feb/2025:19:56:04 +0530] \"PUT /networks HTTP/1.0\" 205 40422 \"https://www.humanfunctionalities.org/e-business/distributed\" \"Mozilla/5.0 (Windows NT 5.0) AppleWebKit/5311 (KHTML, like Gecko) Chrome/40.0.882.0 Mobile Safari/5311\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 400,
+                "bytes": 24399
+            },
+            "url": "/portals",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/5340 (KHTML, like Gecko) Chrome/38.0.810.0 Mobile Safari/5340",
+                "name": "Chrome Mobile",
+                "version": "38.0.810",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 8",
+                    "version": "8",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "21.47.111.98",
+                "ip": "21.47.111.98",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "21.47.111.98 - harvey3471 [22/Feb/2025:19:56:04 +0530] \"POST /portals HTTP/2.0\" 400 24399 \"https://www.globalchannels.net/integrate\" \"Mozilla/5.0 (Windows NT 6.2) AppleWebKit/5340 (KHTML, like Gecko) Chrome/38.0.810.0 Mobile Safari/5340\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 500,
+                "bytes": 27589
+            },
+            "url": "/infomediaries",
+            "flavor": "1.1",
+            "request": {
+                "method": "GET"
+            },
+            "user_agent": {
+                "original": "Opera/10.64 (Windows NT 6.1; en-US) Presto/2.10.310 Version/11.00",
+                "name": "Opera",
+                "version": "10.64",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 7",
+                    "version": "7",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "20.42.221.65",
+                "ip": "20.42.221.65",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "20.42.221.65 - - [22/Feb/2025:19:56:04 +0530] \"GET /infomediaries HTTP/2.0\" 500 27589 \"http://www.futuregrow.com/sticky/disintermediate/value-added\" \"Opera/10.64 (Windows NT 6.1; en-US) Presto/2.10.310 Version/11.00\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 500,
+                "bytes": 21592
+            },
+            "url": "/architect/metrics",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_8) AppleWebKit/5310 (KHTML, like Gecko) Chrome/36.0.878.0 Mobile Safari/5310",
+                "name": "Chrome Mobile",
+                "version": "36.0.878",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.7.8",
+                    "version": "10.7.8",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "46.140.220.37",
+                "ip": "46.140.220.37",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "46.140.220.37 - dickens3624 [22/Feb/2025:19:56:04 +0530] \"PATCH /architect/metrics HTTP/1.0\" 500 21592 \"https://www.chiefmindshare.org/web services/users/empower\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_8) AppleWebKit/5310 (KHTML, like Gecko) Chrome/36.0.878.0 Mobile Safari/5310\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 403,
+                "bytes": 64537
+            },
+            "url": "/interactive/innovate/recontextualize/monetize",
+            "flavor": "1.1",
+            "request": {
+                "method": "DELETE"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows; U; Windows 95) AppleWebKit/531.15.2 (KHTML, like Gecko) Version/6.1 Safari/531.15.2",
+                "name": "Safari",
+                "version": "6.1",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 95",
+                    "version": "95",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "229.250.56.250",
+                "ip": "229.250.56.250",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "229.250.56.250 - - [22/Feb/2025:19:56:04 +0530] \"DELETE /interactive/innovate/recontextualize/monetize HTTP/1.0\" 403 64537 \"https://www.leadpartnerships.org/synthesize/morph\" \"Mozilla/5.0 (Windows; U; Windows 95) AppleWebKit/531.15.2 (KHTML, like Gecko) Version/6.1 Safari/531.15.2\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 406,
+                "bytes": 36177
+            },
+            "url": "/supply-chains",
+            "flavor": "1.1",
+            "request": {
+                "method": "PUT"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (X11; Linux i686; rv:8.0) Gecko/1939-25-11 Firefox/37.0",
+                "name": "Firefox",
+                "version": "37.0",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "83.105.49.6",
+                "ip": "83.105.49.6",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "83.105.49.6 - block5612 [22/Feb/2025:19:56:04 +0530] \"PUT /supply-chains HTTP/2.0\" 406 36177 \"http://www.corporatefacilitate.io/maximize/strategic/magnetic\" \"Mozilla/5.0 (X11; Linux i686; rv:8.0) Gecko/1939-25-11 Firefox/37.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 503,
+                "bytes": 79242
+            },
+            "url": "/models/envisioneer",
+            "flavor": "1.1",
+            "request": {
+                "method": "DELETE"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_7_7) AppleWebKit/5311 (KHTML, like Gecko) Chrome/40.0.895.0 Mobile Safari/5311",
+                "name": "Chrome Mobile",
+                "version": "40.0.895",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.7.7",
+                    "version": "10.7.7",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "177.171.155.209",
+                "ip": "177.171.155.209",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "177.171.155.209 - bergnaum6327 [22/Feb/2025:19:56:04 +0530] \"DELETE /models/envisioneer HTTP/2.0\" 503 79242 \"http://www.legacymodels.io/transparent/web services\" \"Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_7_7) AppleWebKit/5311 (KHTML, like Gecko) Chrome/40.0.895.0 Mobile Safari/5311\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 400,
+                "bytes": 2779
+            },
+            "url": "/innovate/exploit/deliverables",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Opera/8.24 (X11; Linux x86_64; en-US) Presto/2.12.243 Version/11.00",
+                "name": "Opera",
+                "version": "8.24",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "216.151.108.58",
+                "ip": "216.151.108.58",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "216.151.108.58 - - [22/Feb/2025:19:56:04 +0530] \"PATCH /innovate/exploit/deliverables HTTP/1.0\" 400 2779 \"https://www.centralmission-critical.io/grow\" \"Opera/8.24 (X11; Linux x86_64; en-US) Presto/2.12.243 Version/11.00\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 400,
+                "bytes": 87355
+            },
+            "url": "/channels/user-centric",
+            "flavor": "1.1",
+            "request": {
+                "method": "HEAD"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/5352 (KHTML, like Gecko) Chrome/40.0.877.0 Mobile Safari/5352",
+                "name": "Chrome Mobile",
+                "version": "40.0.877",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows XP",
+                    "version": "XP",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "124.74.57.174",
+                "ip": "124.74.57.174",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "124.74.57.174 - - [22/Feb/2025:19:56:04 +0530] \"HEAD /channels/user-centric HTTP/1.1\" 400 87355 \"http://www.customerstreamline.com/sexy/engineer\" \"Mozilla/5.0 (Windows NT 5.1) AppleWebKit/5352 (KHTML, like Gecko) Chrome/40.0.877.0 Mobile Safari/5352\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 502,
+                "bytes": 80913
+            },
+            "url": "/architectures/one-to-one",
+            "flavor": "1.1",
+            "request": {
+                "method": "DELETE"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; PPC Mac OS X 10_5_6) AppleWebKit/5311 (KHTML, like Gecko) Chrome/36.0.878.0 Mobile Safari/5311",
+                "name": "Chrome Mobile",
+                "version": "36.0.878",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.5.6",
+                    "version": "10.5.6",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "246.44.52.254",
+                "ip": "246.44.52.254",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "246.44.52.254 - - [22/Feb/2025:19:56:04 +0530] \"DELETE /architectures/one-to-one HTTP/2.0\" 502 80913 \"http://www.centralintuitive.biz/mission-critical/visualize/value-added\" \"Mozilla/5.0 (Macintosh; PPC Mac OS X 10_5_6) AppleWebKit/5311 (KHTML, like Gecko) Chrome/36.0.878.0 Mobile Safari/5311\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 501,
+                "bytes": 24728
+            },
+            "url": "/empower/extensible",
+            "flavor": "1.1",
+            "request": {
+                "method": "HEAD"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; PPC Mac OS X 10_8_6 rv:6.0; en-US) AppleWebKit/535.30.4 (KHTML, like Gecko) Version/5.0 Safari/535.30.4",
+                "name": "Safari",
+                "version": "5.0",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.8.6",
+                    "version": "10.8.6",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "33.45.182.21",
+                "ip": "33.45.182.21",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "33.45.182.21 - - [22/Feb/2025:19:56:04 +0530] \"HEAD /empower/extensible HTTP/1.1\" 501 24728 \"https://www.internationalbandwidth.name/initiatives\" \"Mozilla/5.0 (Macintosh; PPC Mac OS X 10_8_6 rv:6.0; en-US) AppleWebKit/535.30.4 (KHTML, like Gecko) Version/5.0 Safari/535.30.4\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 501,
+                "bytes": 19264
+            },
+            "url": "/mission-critical/unleash/infrastructures",
+            "flavor": "1.1",
+            "request": {
+                "method": "GET"
+            },
+            "user_agent": {
+                "original": "Opera/10.37 (Macintosh; U; PPC Mac OS X 10_8_1; en-US) Presto/2.13.210 Version/10.00",
+                "name": "Opera",
+                "version": "10.37",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.8.1",
+                    "version": "10.8.1",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "254.27.15.44",
+                "ip": "254.27.15.44",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "254.27.15.44 - fisher6067 [22/Feb/2025:19:56:04 +0530] \"GET /mission-critical/unleash/infrastructures HTTP/1.1\" 501 19264 \"https://www.principalweb-readiness.biz/reinvent/magnetic/interactive/disintermediate\" \"Opera/10.37 (Macintosh; U; PPC Mac OS X 10_8_1; en-US) Presto/2.13.210 Version/10.00\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 504,
+                "bytes": 22595
+            },
+            "url": "/dot-com/web-enabled",
+            "flavor": "1.1",
+            "request": {
+                "method": "GET"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows; U; Windows 98; Win 9x 4.90) AppleWebKit/533.18.3 (KHTML, like Gecko) Version/4.0 Safari/533.18.3",
+                "name": "Safari",
+                "version": "4.0",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows ME",
+                    "version": "ME",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "91.184.252.187",
+                "ip": "91.184.252.187",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "91.184.252.187 - - [22/Feb/2025:19:56:04 +0530] \"GET /dot-com/web-enabled HTTP/1.0\" 504 22595 \"https://www.forwardrevolutionize.io/real-time/next-generation/facilitate\" \"Mozilla/5.0 (Windows; U; Windows 98; Win 9x 4.90) AppleWebKit/533.18.3 (KHTML, like Gecko) Version/4.0 Safari/533.18.3\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 403,
+                "bytes": 36551
+            },
+            "url": "/e-business/sticky/action-items/strategic",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_8_4 rv:5.0) Gecko/1936-22-08 Firefox/35.0",
+                "name": "Firefox",
+                "version": "35.0",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.8.4",
+                    "version": "10.8.4",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "232.119.27.3",
+                "ip": "232.119.27.3",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "232.119.27.3 - greenholt1302 [22/Feb/2025:19:56:04 +0530] \"PATCH /e-business/sticky/action-items/strategic HTTP/1.1\" 403 36551 \"https://www.districtsyndicate.org/streamline\" \"Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_8_4 rv:5.0) Gecko/1936-22-08 Firefox/35.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 304,
+                "bytes": 12095
+            },
+            "url": "/proactive/optimize",
+            "flavor": "1.1",
+            "request": {
+                "method": "PUT"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; PPC Mac OS X 10_9_4 rv:4.0; en-US) AppleWebKit/535.46.6 (KHTML, like Gecko) Version/4.1 Safari/535.46.6",
+                "name": "Safari",
+                "version": "4.1",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.9.4",
+                    "version": "10.9.4",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "120.22.245.88",
+                "ip": "120.22.245.88",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "120.22.245.88 - - [22/Feb/2025:19:56:04 +0530] \"PUT /proactive/optimize HTTP/1.1\" 304 12095 \"http://www.forward24/7.biz/rich/cutting-edge/transform/roi\" \"Mozilla/5.0 (Macintosh; PPC Mac OS X 10_9_4 rv:4.0; en-US) AppleWebKit/535.46.6 (KHTML, like Gecko) Version/4.1 Safari/535.46.6\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 500,
+                "bytes": 97712
+            },
+            "url": "/compelling",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/5320 (KHTML, like Gecko) Chrome/40.0.808.0 Mobile Safari/5320",
+                "name": "Chrome Mobile",
+                "version": "40.0.808",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "121.148.151.192",
+                "ip": "121.148.151.192",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "121.148.151.192 - - [22/Feb/2025:19:56:04 +0530] \"POST /compelling HTTP/2.0\" 500 97712 \"http://www.principalone-to-one.io/bleeding-edge/cultivate\" \"Mozilla/5.0 (X11; Linux i686) AppleWebKit/5320 (KHTML, like Gecko) Chrome/40.0.808.0 Mobile Safari/5320\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 304,
+                "bytes": 7415
+            },
+            "url": "/killer/magnetic/leading-edge",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/5361 (KHTML, like Gecko) Chrome/36.0.861.0 Mobile Safari/5361",
+                "name": "Chrome Mobile",
+                "version": "36.0.861",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "116.183.77.164",
+                "ip": "116.183.77.164",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "116.183.77.164 - - [22/Feb/2025:19:56:04 +0530] \"POST /killer/magnetic/leading-edge HTTP/1.1\" 304 7415 \"http://www.corporatesynthesize.info/enable/vortals/scale\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/5361 (KHTML, like Gecko) Chrome/36.0.861.0 Mobile Safari/5361\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 100,
+                "bytes": 19844
+            },
+            "url": "/repurpose/supply-chains",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/5351 (KHTML, like Gecko) Chrome/38.0.887.0 Mobile Safari/5351",
+                "name": "Chrome Mobile",
+                "version": "38.0.887",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "202.196.78.84",
+                "ip": "202.196.78.84",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "202.196.78.84 - kling5437 [22/Feb/2025:19:56:04 +0530] \"POST /repurpose/supply-chains HTTP/2.0\" 100 19844 \"http://www.nationalfrictionless.net/bricks-and-clicks/architectures/drive/embrace\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/5351 (KHTML, like Gecko) Chrome/38.0.887.0 Mobile Safari/5351\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 304,
+                "bytes": 53541
+            },
+            "url": "/benchmark/experiences/eyeballs",
+            "flavor": "1.1",
+            "request": {
+                "method": "PUT"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (X11; Linux x86_64; rv:6.0) Gecko/1962-21-11 Firefox/36.0",
+                "name": "Firefox",
+                "version": "36.0",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "11.33.134.97",
+                "ip": "11.33.134.97",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "11.33.134.97 - - [22/Feb/2025:19:56:04 +0530] \"PUT /benchmark/experiences/eyeballs HTTP/1.1\" 304 53541 \"http://www.productextensible.org/unleash/whiteboard/target\" \"Mozilla/5.0 (X11; Linux x86_64; rv:6.0) Gecko/1962-21-11 Firefox/36.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 403,
+                "bytes": 43342
+            },
+            "url": "/cultivate/e-business/generate",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows NT 4.0) AppleWebKit/5321 (KHTML, like Gecko) Chrome/37.0.815.0 Mobile Safari/5321",
+                "name": "Chrome Mobile",
+                "version": "37.0.815",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows NT",
+                    "version": "NT",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "58.96.224.53",
+                "ip": "58.96.224.53",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "58.96.224.53 - - [22/Feb/2025:19:56:04 +0530] \"POST /cultivate/e-business/generate HTTP/1.0\" 403 43342 \"https://www.forwardb2c.name/revolutionary/e-markets/transition/web-readiness\" \"Mozilla/5.0 (Windows NT 4.0) AppleWebKit/5321 (KHTML, like Gecko) Chrome/37.0.815.0 Mobile Safari/5321\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 403,
+                "bytes": 96072
+            },
+            "url": "/transparent/envisioneer/users/transform",
+            "flavor": "1.1",
+            "request": {
+                "method": "HEAD"
+            },
+            "user_agent": {
+                "original": "Opera/8.76 (Macintosh; PPC Mac OS X 10_8_0; en-US) Presto/2.9.187 Version/11.00",
+                "name": "Opera",
+                "version": "8.76",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.8.0",
+                    "version": "10.8.0",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "140.13.50.131",
+                "ip": "140.13.50.131",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "140.13.50.131 - - [22/Feb/2025:19:56:04 +0530] \"HEAD /transparent/envisioneer/users/transform HTTP/2.0\" 403 96072 \"https://www.regionalrelationships.com/infrastructures/productize/dynamic/iterate\" \"Opera/8.76 (Macintosh; PPC Mac OS X 10_8_0; en-US) Presto/2.9.187 Version/11.00\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 401,
+                "bytes": 13719
+            },
+            "url": "/collaborative",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows NT 5.0; en-US; rv:1.9.0.20) Gecko/1994-24-12 Firefox/35.0",
+                "name": "Firefox",
+                "version": "35.0",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 2000",
+                    "version": "2000",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "5.92.6.159",
+                "ip": "5.92.6.159",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "5.92.6.159 - - [22/Feb/2025:19:56:04 +0530] \"POST /collaborative HTTP/1.1\" 401 13719 \"https://www.productsystems.name/integrated/embrace/incentivize/one-to-one\" \"Mozilla/5.0 (Windows NT 5.0; en-US; rv:1.9.0.20) Gecko/1994-24-12 Firefox/35.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 100,
+                "bytes": 94503
+            },
+            "url": "/granular",
+            "flavor": "1.1",
+            "request": {
+                "method": "PUT"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (X11; Linux i686; rv:7.0) Gecko/2019-18-05 Firefox/37.0",
+                "name": "Firefox",
+                "version": "37.0",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "111.244.27.173",
+                "ip": "111.244.27.173",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "111.244.27.173 - pfeffer3261 [22/Feb/2025:19:56:04 +0530] \"PUT /granular HTTP/1.0\" 100 94503 \"https://www.leadexploit.biz/incentivize/incentivize/engage/b2c\" \"Mozilla/5.0 (X11; Linux i686; rv:7.0) Gecko/2019-18-05 Firefox/37.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 501,
+                "bytes": 27572
+            },
+            "url": "/visualize/one-to-one/roi/reintermediate",
+            "flavor": "1.1",
+            "request": {
+                "method": "HEAD"
+            },
+            "user_agent": {
+                "original": "Opera/10.56 (X11; Linux x86_64; en-US) Presto/2.8.182 Version/13.00",
+                "name": "Opera",
+                "version": "10.56",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "205.6.95.208",
+                "ip": "205.6.95.208",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "205.6.95.208 - - [22/Feb/2025:19:56:04 +0530] \"HEAD /visualize/one-to-one/roi/reintermediate HTTP/1.1\" 501 27572 \"http://www.dynamicvalue-added.info/user-centric/robust/seize/harness\" \"Opera/10.56 (X11; Linux x86_64; en-US) Presto/2.8.182 Version/13.00\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 301,
+                "bytes": 41209
+            },
+            "url": "/implement",
+            "flavor": "1.1",
+            "request": {
+                "method": "GET"
+            },
+            "user_agent": {
+                "original": "Opera/10.34 (X11; Linux x86_64; en-US) Presto/2.9.245 Version/10.00",
+                "name": "Opera",
+                "version": "10.34",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "58.122.223.152",
+                "ip": "58.122.223.152",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "58.122.223.152 - ferry6740 [22/Feb/2025:19:56:04 +0530] \"GET /implement HTTP/1.1\" 301 41209 \"https://www.forwardevolve.com/strategize/empower\" \"Opera/10.34 (X11; Linux x86_64; en-US) Presto/2.9.245 Version/10.00\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 404,
+                "bytes": 26584
+            },
+            "url": "/infomediaries/enterprise",
+            "flavor": "1.1",
+            "request": {
+                "method": "PUT"
+            },
+            "user_agent": {
+                "original": "Opera/9.91 (Macintosh; U; Intel Mac OS X 10_9_1; en-US) Presto/2.10.320 Version/11.00",
+                "name": "Opera",
+                "version": "9.91",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.9.1",
+                    "version": "10.9.1",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "181.47.180.42",
+                "ip": "181.47.180.42",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "181.47.180.42 - monahan7044 [22/Feb/2025:19:56:04 +0530] \"PUT /infomediaries/enterprise HTTP/2.0\" 404 26584 \"http://www.forwarddynamic.net/revolutionary/compelling/syndicate/web-enabled\" \"Opera/9.91 (Macintosh; U; Intel Mac OS X 10_9_1; en-US) Presto/2.10.320 Version/11.00\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 302,
+                "bytes": 5952
+            },
+            "url": "/enable/reintermediate",
+            "flavor": "1.1",
+            "request": {
+                "method": "PUT"
+            },
+            "user_agent": {
+                "original": "Opera/8.78 (Macintosh; U; Intel Mac OS X 10_7_0; en-US) Presto/2.9.204 Version/13.00",
+                "name": "Opera",
+                "version": "8.78",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.7.0",
+                    "version": "10.7.0",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "22.195.85.138",
+                "ip": "22.195.85.138",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "22.195.85.138 - - [22/Feb/2025:19:56:04 +0530] \"PUT /enable/reintermediate HTTP/2.0\" 302 5952 \"https://www.nationalempower.org/impactful/utilize/vertical\" \"Opera/8.78 (Macintosh; U; Intel Mac OS X 10_7_0; en-US) Presto/2.9.204 Version/13.00\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 501,
+                "bytes": 26057
+            },
+            "url": "/incentivize/customized/models/aggregate",
+            "flavor": "1.1",
+            "request": {
+                "method": "HEAD"
+            },
+            "user_agent": {
+                "original": "Opera/10.69 (Windows 98; en-US) Presto/2.11.324 Version/11.00",
+                "name": "Opera",
+                "version": "10.69",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 98",
+                    "version": "98",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "59.242.144.240",
+                "ip": "59.242.144.240",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "59.242.144.240 - bins5633 [22/Feb/2025:19:56:04 +0530] \"HEAD /incentivize/customized/models/aggregate HTTP/1.1\" 501 26057 \"http://www.internalenable.com/action-items\" \"Opera/10.69 (Windows 98; en-US) Presto/2.11.324 Version/11.00\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 416,
+                "bytes": 60414
+            },
+            "url": "/benchmark/deploy",
+            "flavor": "1.1",
+            "request": {
+                "method": "HEAD"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_9_4 rv:2.0) Gecko/1947-27-11 Firefox/35.0",
+                "name": "Firefox",
+                "version": "35.0",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.9.4",
+                    "version": "10.9.4",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "69.85.105.82",
+                "ip": "69.85.105.82",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "69.85.105.82 - wiza3426 [22/Feb/2025:19:56:04 +0530] \"HEAD /benchmark/deploy HTTP/1.1\" 416 60414 \"https://www.nationalchannels.org/front-end/web-enabled/architectures/intuitive\" \"Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_9_4 rv:2.0) Gecko/1947-27-11 Firefox/35.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 500,
+                "bytes": 46048
+            },
+            "url": "/robust",
+            "flavor": "1.1",
+            "request": {
+                "method": "HEAD"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (X11; Linux x86_64; rv:7.0) Gecko/1987-28-12 Firefox/37.0",
+                "name": "Firefox",
+                "version": "37.0",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "64.120.54.187",
+                "ip": "64.120.54.187",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "64.120.54.187 - - [22/Feb/2025:19:56:04 +0530] \"HEAD /robust HTTP/1.0\" 500 46048 \"https://www.customersupply-chains.io/orchestrate\" \"Mozilla/5.0 (X11; Linux x86_64; rv:7.0) Gecko/1987-28-12 Firefox/37.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 504,
+                "bytes": 45902
+            },
+            "url": "/functionalities/maximize/leading-edge",
+            "flavor": "1.1",
+            "request": {
+                "method": "DELETE"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_2) AppleWebKit/5311 (KHTML, like Gecko) Chrome/38.0.883.0 Mobile Safari/5311",
+                "name": "Chrome Mobile",
+                "version": "38.0.883",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.5.2",
+                    "version": "10.5.2",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "85.85.20.159",
+                "ip": "85.85.20.159",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "85.85.20.159 - - [22/Feb/2025:19:56:04 +0530] \"DELETE /functionalities/maximize/leading-edge HTTP/1.0\" 504 45902 \"https://www.globalstrategic.io/productize/engineer/user-centric\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_5_2) AppleWebKit/5311 (KHTML, like Gecko) Chrome/38.0.883.0 Mobile Safari/5311\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 204,
+                "bytes": 11472
+            },
+            "url": "/front-end/cutting-edge/frictionless/expedite",
+            "flavor": "1.1",
+            "request": {
+                "method": "GET"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows 95; en-US; rv:1.9.3.20) Gecko/2024-23-07 Firefox/37.0",
+                "name": "Firefox",
+                "version": "37.0",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 95",
+                    "version": "95",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "success",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "68.179.229.38",
+                "ip": "68.179.229.38",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "68.179.229.38 - - [22/Feb/2025:19:56:04 +0530] \"GET /front-end/cutting-edge/frictionless/expedite HTTP/1.1\" 204 11472 \"https://www.districtcollaborative.io/vertical/ubiquitous/partnerships\" \"Mozilla/5.0 (Windows 95; en-US; rv:1.9.3.20) Gecko/2024-23-07 Firefox/37.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 304,
+                "bytes": 23807
+            },
+            "url": "/models/target",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Opera/10.65 (Macintosh; U; Intel Mac OS X 10_9_2; en-US) Presto/2.12.210 Version/10.00",
+                "name": "Opera",
+                "version": "10.65",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.9.2",
+                    "version": "10.9.2",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "176.178.213.33",
+                "ip": "176.178.213.33",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "176.178.213.33 - - [22/Feb/2025:19:56:04 +0530] \"PATCH /models/target HTTP/2.0\" 304 23807 \"http://www.dynamicmagnetic.com/e-markets/grow/one-to-one/extensible\" \"Opera/10.65 (Macintosh; U; Intel Mac OS X 10_9_2; en-US) Presto/2.12.210 Version/10.00\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 200,
+                "bytes": 46798
+            },
+            "url": "/best-of-breed/integrate",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_6_5 rv:2.0) Gecko/1942-08-11 Firefox/35.0",
+                "name": "Firefox",
+                "version": "35.0",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.6.5",
+                    "version": "10.6.5",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "success",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "19.103.169.220",
+                "ip": "19.103.169.220",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "19.103.169.220 - grady3478 [22/Feb/2025:19:56:04 +0530] \"PATCH /best-of-breed/integrate HTTP/1.1\" 200 46798 \"http://www.districtinnovative.com/strategic/embrace/deliver\" \"Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_6_5 rv:2.0) Gecko/1942-08-11 Firefox/35.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 400,
+                "bytes": 78445
+            },
+            "url": "/mesh/users/channels/interfaces",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows NT 5.01; en-US; rv:1.9.3.20) Gecko/1967-01-03 Firefox/36.0",
+                "name": "Firefox",
+                "version": "36.0",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 2000",
+                    "version": "2000",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "208.84.116.43",
+                "ip": "208.84.116.43",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "208.84.116.43 - goodwin5406 [22/Feb/2025:19:56:04 +0530] \"PATCH /mesh/users/channels/interfaces HTTP/2.0\" 400 78445 \"http://www.investorintuitive.net/strategize/frictionless\" \"Mozilla/5.0 (Windows NT 5.01; en-US; rv:1.9.3.20) Gecko/1967-01-03 Firefox/36.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 404,
+                "bytes": 96757
+            },
+            "url": "/scalable/strategic",
+            "flavor": "1.1",
+            "request": {
+                "method": "PUT"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_3) AppleWebKit/5362 (KHTML, like Gecko) Chrome/39.0.874.0 Mobile Safari/5362",
+                "name": "Chrome Mobile",
+                "version": "39.0.874",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.5.3",
+                    "version": "10.5.3",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "179.102.32.171",
+                "ip": "179.102.32.171",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "179.102.32.171 - - [22/Feb/2025:19:56:04 +0530] \"PUT /scalable/strategic HTTP/2.0\" 404 96757 \"http://www.leadnetworks.biz/deploy/harness\" \"Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_3) AppleWebKit/5362 (KHTML, like Gecko) Chrome/39.0.874.0 Mobile Safari/5362\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 200,
+                "bytes": 3460
+            },
+            "url": "/granular/out-of-the-box/extensible/recontextualize",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows NT 4.0; en-US; rv:1.9.2.20) Gecko/1972-20-11 Firefox/37.0",
+                "name": "Firefox",
+                "version": "37.0",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows NT",
+                    "version": "NT",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "success",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "65.26.132.205",
+                "ip": "65.26.132.205",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "65.26.132.205 - ryan6848 [22/Feb/2025:19:56:04 +0530] \"PATCH /granular/out-of-the-box/extensible/recontextualize HTTP/1.1\" 200 3460 \"https://www.leadeyeballs.biz/channels\" \"Mozilla/5.0 (Windows NT 4.0; en-US; rv:1.9.2.20) Gecko/1972-20-11 Firefox/37.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 302,
+                "bytes": 79890
+            },
+            "url": "/streamline",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (X11; Linux i686) AppleWebKit/5310 (KHTML, like Gecko) Chrome/40.0.816.0 Mobile Safari/5310",
+                "name": "Chrome Mobile",
+                "version": "40.0.816",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "171.229.171.154",
+                "ip": "171.229.171.154",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "171.229.171.154 - walsh6516 [22/Feb/2025:19:56:04 +0530] \"PATCH /streamline HTTP/1.1\" 302 79890 \"https://www.humanempower.biz/real-time/front-end/evolve\" \"Mozilla/5.0 (X11; Linux i686) AppleWebKit/5310 (KHTML, like Gecko) Chrome/40.0.816.0 Mobile Safari/5310\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 403,
+                "bytes": 29280
+            },
+            "url": "/reintermediate/extensible/viral",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Opera/10.26 (X11; Linux x86_64; en-US) Presto/2.12.350 Version/13.00",
+                "name": "Opera",
+                "version": "10.26",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "169.25.211.56",
+                "ip": "169.25.211.56",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "169.25.211.56 - - [22/Feb/2025:19:56:04 +0530] \"PATCH /reintermediate/extensible/viral HTTP/1.0\" 403 29280 \"https://www.internalutilize.io/markets/morph\" \"Opera/10.26 (X11; Linux x86_64; en-US) Presto/2.12.350 Version/13.00\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 405,
+                "bytes": 36123
+            },
+            "url": "/action-items",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/5362 (KHTML, like Gecko) Chrome/37.0.824.0 Mobile Safari/5362",
+                "name": "Chrome Mobile",
+                "version": "37.0.824",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "77.57.19.150",
+                "ip": "77.57.19.150",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "77.57.19.150 - konopelski5604 [22/Feb/2025:19:56:04 +0530] \"POST /action-items HTTP/1.0\" 405 36123 \"http://www.dynamiccollaborative.name/envisioneer\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/5362 (KHTML, like Gecko) Chrome/37.0.824.0 Mobile Safari/5362\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 304,
+                "bytes": 88109
+            },
+            "url": "/infomediaries/deploy",
+            "flavor": "1.1",
+            "request": {
+                "method": "PUT"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (iPad; CPU OS 9_0_3 like Mac OS X; en-US) AppleWebKit/531.25.2 (KHTML, like Gecko) Version/3.0.5 Mobile/8B120 Safari/6531.25.2",
+                "name": "Mobile Safari",
+                "version": "3.0.5",
+                "os": {
+                    "name": "iOS",
+                    "full": "iOS 9.0.3",
+                    "version": "9.0.3",
+                    "device": {
+                        "name": "iPad"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "251.12.4.55",
+                "ip": "251.12.4.55",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "251.12.4.55 - kautzer3183 [22/Feb/2025:19:56:04 +0530] \"PUT /infomediaries/deploy HTTP/1.0\" 304 88109 \"http://www.nationalmarkets.org/optimize/deploy\" \"Mozilla/5.0 (iPad; CPU OS 9_0_3 like Mac OS X; en-US) AppleWebKit/531.25.2 (KHTML, like Gecko) Version/3.0.5 Mobile/8B120 Safari/6531.25.2\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 405,
+                "bytes": 38372
+            },
+            "url": "/implement/strategic/incentivize",
+            "flavor": "1.1",
+            "request": {
+                "method": "DELETE"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows 98; Win 9x 4.90; en-US; rv:1.9.3.20) Gecko/1945-09-09 Firefox/36.0",
+                "name": "Firefox",
+                "version": "36.0",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows ME",
+                    "version": "ME",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "224.31.200.128",
+                "ip": "224.31.200.128",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "224.31.200.128 - flatley5450 [22/Feb/2025:19:56:04 +0530] \"DELETE /implement/strategic/incentivize HTTP/1.0\" 405 38372 \"https://www.forwarde-enable.info/next-generation/visionary/mesh/end-to-end\" \"Mozilla/5.0 (Windows 98; Win 9x 4.90; en-US; rv:1.9.3.20) Gecko/1945-09-09 Firefox/36.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 501,
+                "bytes": 96753
+            },
+            "url": "/sticky/reintermediate/robust",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X; en-US) AppleWebKit/532.12.7 (KHTML, like Gecko) Version/3.0.5 Mobile/8B117 Safari/6532.12.7",
+                "name": "Mobile Safari",
+                "version": "3.0.5",
+                "os": {
+                    "name": "iOS",
+                    "full": "iOS 7.1.1",
+                    "version": "7.1.1",
+                    "device": {
+                        "name": "iPhone"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "150.197.9.86",
+                "ip": "150.197.9.86",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "150.197.9.86 - haley6638 [22/Feb/2025:19:56:04 +0530] \"POST /sticky/reintermediate/robust HTTP/1.0\" 501 96753 \"https://www.productmatrix.io/engage\" \"Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X; en-US) AppleWebKit/532.12.7 (KHTML, like Gecko) Version/3.0.5 Mobile/8B117 Safari/6532.12.7\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 401,
+                "bytes": 79551
+            },
+            "url": "/front-end/syndicate/aggregate",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows; U; Windows NT 5.0) AppleWebKit/531.32.3 (KHTML, like Gecko) Version/6.1 Safari/531.32.3",
+                "name": "Safari",
+                "version": "6.1",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 2000",
+                    "version": "2000",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "196.93.106.222",
+                "ip": "196.93.106.222",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "196.93.106.222 - - [22/Feb/2025:19:56:04 +0530] \"POST /front-end/syndicate/aggregate HTTP/1.1\" 401 79551 \"https://www.directout-of-the-box.io/maximize\" \"Mozilla/5.0 (Windows; U; Windows NT 5.0) AppleWebKit/531.32.3 (KHTML, like Gecko) Version/6.1 Safari/531.32.3\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 403,
+                "bytes": 62411
+            },
+            "url": "/evolve/bleeding-edge",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/5342 (KHTML, like Gecko) Chrome/38.0.885.0 Mobile Safari/5342",
+                "name": "Chrome Mobile",
+                "version": "38.0.885",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 8",
+                    "version": "8",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "234.85.154.183",
+                "ip": "234.85.154.183",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "234.85.154.183 - - [22/Feb/2025:19:56:04 +0530] \"PATCH /evolve/bleeding-edge HTTP/1.1\" 403 62411 \"http://www.futurereal-time.name/infomediaries/envisioneer/systems/synergistic\" \"Mozilla/5.0 (Windows NT 6.2) AppleWebKit/5342 (KHTML, like Gecko) Chrome/38.0.885.0 Mobile Safari/5342\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 304,
+                "bytes": 90610
+            },
+            "url": "/enterprise/deliverables",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows 95) AppleWebKit/5352 (KHTML, like Gecko) Chrome/37.0.837.0 Mobile Safari/5352",
+                "name": "Chrome Mobile",
+                "version": "37.0.837",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 95",
+                    "version": "95",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "47.40.241.101",
+                "ip": "47.40.241.101",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "47.40.241.101 - - [22/Feb/2025:19:56:04 +0530] \"PATCH /enterprise/deliverables HTTP/2.0\" 304 90610 \"https://www.globalsyndicate.io/methodologies/b2b\" \"Mozilla/5.0 (Windows 95) AppleWebKit/5352 (KHTML, like Gecko) Chrome/37.0.837.0 Mobile Safari/5352\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 404,
+                "bytes": 80892
+            },
+            "url": "/solutions/extend",
+            "flavor": "1.1",
+            "request": {
+                "method": "DELETE"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2 rv:7.0) Gecko/1933-04-06 Firefox/37.0",
+                "name": "Firefox",
+                "version": "37.0",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.7.2",
+                    "version": "10.7.2",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "202.163.118.64",
+                "ip": "202.163.118.64",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "202.163.118.64 - mayer2552 [22/Feb/2025:19:56:04 +0530] \"DELETE /solutions/extend HTTP/1.0\" 404 80892 \"http://www.directmethodologies.org/killer/frictionless/cultivate/expedite\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2 rv:7.0) Gecko/1933-04-06 Firefox/37.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 204,
+                "bytes": 15208
+            },
+            "url": "/networks",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Opera/9.41 (Windows NT 5.2; en-US) Presto/2.9.304 Version/13.00",
+                "name": "Opera",
+                "version": "9.41",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows XP",
+                    "version": "XP",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "success",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "146.187.24.203",
+                "ip": "146.187.24.203",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "146.187.24.203 - johnston7066 [22/Feb/2025:19:56:04 +0530] \"POST /networks HTTP/1.0\" 204 15208 \"http://www.centralinnovative.net/mission-critical/killer\" \"Opera/9.41 (Windows NT 5.2; en-US) Presto/2.9.304 Version/13.00\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 205,
+                "bytes": 92857
+            },
+            "url": "/scalable/niches",
+            "flavor": "1.1",
+            "request": {
+                "method": "GET"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_10 rv:3.0) Gecko/1937-30-11 Firefox/35.0",
+                "name": "Firefox",
+                "version": "35.0",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.6.10",
+                    "version": "10.6.10",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "success",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "204.76.35.203",
+                "ip": "204.76.35.203",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "204.76.35.203 - hahn6150 [22/Feb/2025:19:56:04 +0530] \"GET /scalable/niches HTTP/1.0\" 205 92857 \"http://www.corporateinnovate.org/transition/global/leverage\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_10 rv:3.0) Gecko/1937-30-11 Firefox/35.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 401,
+                "bytes": 8490
+            },
+            "url": "/whiteboard/functionalities/24%2f365",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Opera/9.27 (Windows NT 5.1; en-US) Presto/2.12.247 Version/12.00",
+                "name": "Opera",
+                "version": "9.27",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows XP",
+                    "version": "XP",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "244.38.159.99",
+                "ip": "244.38.159.99",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "244.38.159.99 - - [22/Feb/2025:19:56:04 +0530] \"POST /whiteboard/functionalities/24%2f365 HTTP/1.0\" 401 8490 \"http://www.centralturn-key.info/expedite/matrix/supply-chains/real-time\" \"Opera/9.27 (Windows NT 5.1; en-US) Presto/2.12.247 Version/12.00\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 404,
+                "bytes": 26576
+            },
+            "url": "/applications/repurpose/back-end/best-of-breed",
+            "flavor": "1.1",
+            "request": {
+                "method": "DELETE"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/5351 (KHTML, like Gecko) Chrome/39.0.882.0 Mobile Safari/5351",
+                "name": "Chrome Mobile",
+                "version": "39.0.882",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.9.1",
+                    "version": "10.9.1",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "90.84.146.51",
+                "ip": "90.84.146.51",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "90.84.146.51 - gulgowski5308 [22/Feb/2025:19:56:04 +0530] \"DELETE /applications/repurpose/back-end/best-of-breed HTTP/1.0\" 404 26576 \"https://www.chiefend-to-end.name/cutting-edge/one-to-one/functionalities\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/5351 (KHTML, like Gecko) Chrome/39.0.882.0 Mobile Safari/5351\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 501,
+                "bytes": 47277
+            },
+            "url": "/maximize/envisioneer/proactive/experiences",
+            "flavor": "1.1",
+            "request": {
+                "method": "PUT"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (X11; Linux x86_64; rv:5.0) Gecko/2010-28-01 Firefox/37.0",
+                "name": "Firefox",
+                "version": "37.0",
+                "os": {
+                    "name": "Linux",
+                    "full": "Linux ",
+                    "version": "",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "252.90.136.164",
+                "ip": "252.90.136.164",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "252.90.136.164 - stracke6673 [22/Feb/2025:19:56:04 +0530] \"PUT /maximize/envisioneer/proactive/experiences HTTP/1.1\" 501 47277 \"https://www.seniorsynthesize.info/killer/virtual/e-enable/strategize\" \"Mozilla/5.0 (X11; Linux x86_64; rv:5.0) Gecko/2010-28-01 Firefox/37.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 204,
+                "bytes": 93988
+            },
+            "url": "/productize/harness/implement",
+            "flavor": "1.1",
+            "request": {
+                "method": "PUT"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows; U; Windows NT 6.0) AppleWebKit/535.43.5 (KHTML, like Gecko) Version/6.2 Safari/535.43.5",
+                "name": "Safari",
+                "version": "6.2",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows Vista",
+                    "version": "Vista",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "success",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "211.21.212.123",
+                "ip": "211.21.212.123",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "211.21.212.123 - walsh1631 [22/Feb/2025:19:56:04 +0530] \"PUT /productize/harness/implement HTTP/1.1\" 204 93988 \"https://www.centralorchestrate.info/vortals/niches/incentivize\" \"Mozilla/5.0 (Windows; U; Windows NT 6.0) AppleWebKit/535.43.5 (KHTML, like Gecko) Version/6.2 Safari/535.43.5\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 204,
+                "bytes": 57611
+            },
+            "url": "/web+services",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4 rv:3.0) Gecko/1999-13-12 Firefox/35.0",
+                "name": "Firefox",
+                "version": "35.0",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.9.4",
+                    "version": "10.9.4",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "success",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "70.202.53.143",
+                "ip": "70.202.53.143",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "70.202.53.143 - - [22/Feb/2025:19:56:04 +0530] \"PATCH /web+services HTTP/1.1\" 204 57611 \"http://www.investormindshare.io/exploit/extensible/impactful/strategic\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4 rv:3.0) Gecko/1999-13-12 Firefox/35.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 204,
+                "bytes": 14750
+            },
+            "url": "/frictionless/robust/deliverables/value-added",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_3 rv:6.0; en-US) AppleWebKit/535.48.4 (KHTML, like Gecko) Version/5.2 Safari/535.48.4",
+                "name": "Safari",
+                "version": "5.2",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.5.3",
+                    "version": "10.5.3",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "success",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "182.193.105.164",
+                "ip": "182.193.105.164",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "182.193.105.164 - - [22/Feb/2025:19:56:04 +0530] \"PATCH /frictionless/robust/deliverables/value-added HTTP/1.1\" 204 14750 \"https://www.dynamicreinvent.net/visionary\" \"Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_5_3 rv:6.0; en-US) AppleWebKit/535.48.4 (KHTML, like Gecko) Version/5.2 Safari/535.48.4\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 302,
+                "bytes": 67434
+            },
+            "url": "/technologies/embrace/repurpose/extend",
+            "flavor": "1.1",
+            "request": {
+                "method": "GET"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows 95; en-US; rv:1.9.2.20) Gecko/1942-19-07 Firefox/36.0",
+                "name": "Firefox",
+                "version": "36.0",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 95",
+                    "version": "95",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "176.148.96.122",
+                "ip": "176.148.96.122",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "176.148.96.122 - kub5811 [22/Feb/2025:19:56:04 +0530] \"GET /technologies/embrace/repurpose/extend HTTP/2.0\" 302 67434 \"http://www.chiefempower.com/harness/web-enabled/e-business/grow\" \"Mozilla/5.0 (Windows 95; en-US; rv:1.9.2.20) Gecko/1942-19-07 Firefox/36.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 404,
+                "bytes": 56929
+            },
+            "url": "/initiatives/paradigms/grow",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/5352 (KHTML, like Gecko) Chrome/36.0.874.0 Mobile Safari/5352",
+                "name": "Chrome Mobile",
+                "version": "36.0.874",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 7",
+                    "version": "7",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "217.180.135.104",
+                "ip": "217.180.135.104",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "217.180.135.104 - - [22/Feb/2025:19:56:04 +0530] \"POST /initiatives/paradigms/grow HTTP/1.1\" 404 56929 \"http://www.corporateiterate.info/world-class/innovative/b2c\" \"Mozilla/5.0 (Windows NT 6.1) AppleWebKit/5352 (KHTML, like Gecko) Chrome/36.0.874.0 Mobile Safari/5352\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 304,
+                "bytes": 77058
+            },
+            "url": "/clicks-and-mortar/morph/web+services",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows CE) AppleWebKit/5352 (KHTML, like Gecko) Chrome/37.0.852.0 Mobile Safari/5352",
+                "name": "Chrome Mobile",
+                "version": "37.0.852",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows CE",
+                    "version": "CE",
+                    "device": {
+                        "name": "Generic Smartphone"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "172.185.45.155",
+                "ip": "172.185.45.155",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "172.185.45.155 - - [22/Feb/2025:19:56:04 +0530] \"PATCH /clicks-and-mortar/morph/web+services HTTP/1.0\" 304 77058 \"http://www.legacycross-media.io/bricks-and-clicks/facilitate\" \"Mozilla/5.0 (Windows CE) AppleWebKit/5352 (KHTML, like Gecko) Chrome/37.0.852.0 Mobile Safari/5352\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 500,
+                "bytes": 37406
+            },
+            "url": "/monetize/disintermediate",
+            "flavor": "1.1",
+            "request": {
+                "method": "HEAD"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_9_8) AppleWebKit/5350 (KHTML, like Gecko) Chrome/40.0.882.0 Mobile Safari/5350",
+                "name": "Chrome Mobile",
+                "version": "40.0.882",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.9.8",
+                    "version": "10.9.8",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "205.36.245.157",
+                "ip": "205.36.245.157",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "205.36.245.157 - walsh2245 [22/Feb/2025:19:56:04 +0530] \"HEAD /monetize/disintermediate HTTP/1.0\" 500 37406 \"https://www.nationalmesh.com/wireless/enhance/iterate/virtual\" \"Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_9_8) AppleWebKit/5350 (KHTML, like Gecko) Chrome/40.0.882.0 Mobile Safari/5350\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 301,
+                "bytes": 66543
+            },
+            "url": "/revolutionize",
+            "flavor": "1.1",
+            "request": {
+                "method": "PATCH"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; PPC Mac OS X 10_9_7) AppleWebKit/5341 (KHTML, like Gecko) Chrome/37.0.844.0 Mobile Safari/5341",
+                "name": "Chrome Mobile",
+                "version": "37.0.844",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.9.7",
+                    "version": "10.9.7",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "182.194.13.28",
+                "ip": "182.194.13.28",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "182.194.13.28 - - [22/Feb/2025:19:56:04 +0530] \"PATCH /revolutionize HTTP/2.0\" 301 66543 \"https://www.chiefexperiences.name/web-enabled/vertical/disintermediate/facilitate\" \"Mozilla/5.0 (Macintosh; PPC Mac OS X 10_9_7) AppleWebKit/5341 (KHTML, like Gecko) Chrome/37.0.844.0 Mobile Safari/5341\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 502,
+                "bytes": 40696
+            },
+            "url": "/solutions/proactive",
+            "flavor": "1.1",
+            "request": {
+                "method": "POST"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_7_1 rv:7.0) Gecko/1986-04-03 Firefox/37.0",
+                "name": "Firefox",
+                "version": "37.0",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.7.1",
+                    "version": "10.7.1",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "164.21.151.184",
+                "ip": "164.21.151.184",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "164.21.151.184 - murray8660 [22/Feb/2025:19:56:04 +0530] \"POST /solutions/proactive HTTP/2.0\" 502 40696 \"https://www.internationalplug-and-play.net/holistic/global/24/7/utilize\" \"Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10_7_1 rv:7.0) Gecko/1986-04-03 Firefox/37.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 416,
+                "bytes": 33334
+            },
+            "url": "/value-added",
+            "flavor": "1.1",
+            "request": {
+                "method": "HEAD"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Macintosh; PPC Mac OS X 10_5_2 rv:4.0) Gecko/1939-04-02 Firefox/36.0",
+                "name": "Firefox",
+                "version": "36.0",
+                "os": {
+                    "name": "Mac OS X",
+                    "full": "Mac OS X 10.5.2",
+                    "version": "10.5.2",
+                    "device": {
+                        "name": "Mac"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "239.102.115.11",
+                "ip": "239.102.115.11",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "239.102.115.11 - - [22/Feb/2025:19:56:04 +0530] \"HEAD /value-added HTTP/2.0\" 416 33334 \"http://www.leadcutting-edge.org/end-to-end/24/365/brand\" \"Mozilla/5.0 (Macintosh; PPC Mac OS X 10_5_2 rv:4.0) Gecko/1939-04-02 Firefox/36.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 100,
+                "bytes": 35122
+            },
+            "url": "/cross-platform/best-of-breed/architectures/synergistic",
+            "flavor": "1.1",
+            "request": {
+                "method": "GET"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows NT 5.01; en-US; rv:1.9.3.20) Gecko/2016-02-08 Firefox/37.0",
+                "name": "Firefox",
+                "version": "37.0",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 2000",
+                    "version": "2000",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "19.11.71.193",
+                "ip": "19.11.71.193",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "19.11.71.193 - bradtke7726 [22/Feb/2025:19:56:04 +0530] \"GET /cross-platform/best-of-breed/architectures/synergistic HTTP/1.1\" 100 35122 \"https://www.forwardturn-key.io/granular\" \"Mozilla/5.0 (Windows NT 5.01; en-US; rv:1.9.3.20) Gecko/2016-02-08 Firefox/37.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    },
+    {
+        "observedTimestamp": "2025-02-22T19:56:04+05:30",
+        "http": {
+            "response": {
+                "status_code": 416,
+                "bytes": 2838
+            },
+            "url": "/networks",
+            "flavor": "1.1",
+            "request": {
+                "method": "DELETE"
+            },
+            "user_agent": {
+                "original": "Mozilla/5.0 (Windows NT 5.0; en-US; rv:1.9.3.20) Gecko/1999-31-12 Firefox/37.0",
+                "name": "Firefox",
+                "version": "37.0",
+                "os": {
+                    "name": "Windows",
+                    "full": "Windows 2000",
+                    "version": "2000",
+                    "device": {
+                        "name": "Other"
+                    }
+                }
+            }
+        },
+        "attributes": {
+            "data_stream": {
+                "dataset": "apache.access",
+                "namespace": "production",
+                "type": "logs"
+            }
+        },
+        "event": {
+            "result": "error",
+            "category": "web",
+            "name": "access",
+            "type": "access",
+            "domain": "apache.access",
+            "kind": "event"
+        },
+        "communication": {
+            "source": {
+                "address": "233.116.218.64",
+                "ip": "233.116.218.64",
+                "geo": {
+                    "country": "Unknown",
+                    "country_iso_code": "XX"
+                }
+            }
+        },
+        "body": "233.116.218.64 - - [22/Feb/2025:19:56:04 +0530] \"DELETE /networks HTTP/2.0\" 416 2838 \"https://www.futureturn-key.org/innovative\" \"Mozilla/5.0 (Windows NT 5.0; en-US; rv:1.9.3.20) Gecko/1999-31-12 Firefox/37.0\"",
+        "traceId": "",
+        "spanId": "",
+        "@timestamp": "2025-02-22T19:56:04+05:30"
+    }
+]
