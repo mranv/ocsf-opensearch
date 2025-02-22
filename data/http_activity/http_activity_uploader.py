@@ -202,6 +202,7 @@ def main():
             },
             "mappings": {
                 "properties": {
+                    "time": {"type": "date"},
                     "http_request": {
                         "properties": {
                             "method": {"type": "keyword"},
@@ -225,7 +226,8 @@ def main():
                             "bytes": {"type": "long"}
                         }
                     },
-                    "user_agent": {
+                    "user_agent": {  # Updated user_agent mapping
+                        "type": "object",  # Changed from text to object
                         "properties": {
                             "original": {"type": "keyword"},
                             "device": {
@@ -246,6 +248,29 @@ def main():
                                     "version": {"type": "keyword"}
                                 }
                             }
+                        }
+                    },
+                    "src_endpoint": {
+                        "properties": {
+                            "ip": {"type": "ip"},
+                            "port": {"type": "integer"},
+                            "geo": {
+                                "properties": {
+                                    "country": {"type": "keyword"},
+                                    "country_code": {"type": "keyword"},
+                                    "city": {"type": "keyword"},
+                                    "location": {
+                                        "type": "geo_point"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "dst_endpoint": {
+                        "properties": {
+                            "ip": {"type": "ip"},
+                            "port": {"type": "integer"},
+                            "hostname": {"type": "keyword"}
                         }
                     }
                 }

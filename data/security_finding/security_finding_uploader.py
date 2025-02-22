@@ -50,12 +50,19 @@ class SecurityFindingGenerator:
     def generate_random_event(self) -> Dict[str, Any]:
         finding_type, type_id = random.choice(self.finding_types)
         severity, severity_id = random.choice(self.severities)
-        timestamp = datetime.now() - timedelta(minutes=random.randint(0, 60))
+        
+        # Ensure consistent timestamp format
+        current_time = datetime.now()
+        end_date = datetime(2025, 2, 22)  # Set fixed end date
+        time_diff = (end_date - current_time).total_seconds()
+        random_seconds = random.uniform(0, time_diff)
+        timestamp = current_time + timedelta(seconds=random_seconds)
+        epoch_ms = int(timestamp.timestamp() * 1000)
         
         event = {
-            "class_uid": 2001,  # Security Finding
+            "class_uid": 2001,
             "class_name": "Security Finding",
-            "time": int(timestamp.timestamp() * 1000),
+            "time": epoch_ms,  # Use epoch milliseconds
             "finding": {
                 "uid": str(uuid.uuid4()),
                 "title": f"{finding_type} detected",
@@ -83,7 +90,8 @@ class SecurityFindingGenerator:
                     "vendor_name": "OCSF",
                     "version": "1.0.0"
                 },
-                "original_time": int(timestamp.timestamp() * 1000)
+                "original_time": epoch_ms,  # Use same epoch milliseconds
+                "created_time": epoch_ms    # Add created_time in epoch milliseconds
             }
         }
 
@@ -123,6 +131,22 @@ def main():
             },
             "mappings": {
                 "properties": {
+                    "time": {
+                        "type": "date",
+                        "format": "epoch_millis||strict_date_optional_time"
+                    },
+                    "metadata": {
+                        "properties": {
+                            "original_time": {
+                                "type": "date",
+                                "format": "epoch_millis||strict_date_optional_time"
+                            },
+                            "created_time": {
+                                "type": "date",
+                                "format": "epoch_millis||strict_date_optional_time"
+                            }
+                        }
+                    },
                     "finding": {
                         "properties": {
                             "uid": {"type": "keyword"},
@@ -146,17 +170,24 @@ def main():
     }
 
     try:
+        # Delete existing template if exists
+        client.indices.delete_template(name=template_name, ignore=[404])
+        
+        # Create new template
         client.indices.put_template(name=template_name, body=template)
         logger.info(f"Created index template: {template_name}")
+
+        # Delete existing index if exists
+        current_date = "2025.02.22"  # Use fixed date
+        index_name = f"ocsf-1.1.0-2001-security_finding-{current_date}-000000"
+        client.indices.delete(index=index_name, ignore=[404])
+        
     except Exception as e:
         logger.error(f"Failed to create template: {e}")
 
     # Generate and upload events
     generator = SecurityFindingGenerator()
     events = [generator.generate_random_event() for _ in range(args.events)]
-    
-    current_date = datetime.now().strftime("%Y.%m.%d")
-    index_name = f"ocsf-1.1.0-2001-security_finding-{current_date}-000000"
     
     successful = 0
     failed = 0
