@@ -1,3 +1,4 @@
 schemas/extracted/*
 data/network-activity/network_activity_ingest.log
 data/network-activity/network_data/*
+data/http_activity/access_log_n.json
