@@ -1,0 +1,16 @@
+2025-02-22 22:18:34,736 - INFO - Starting authentication event generation and upload
+2025-02-22 22:18:34,901 - INFO - PUT https://52.66.102.200:9200/_template/ocsf-1.1.0-3002-authentication [status:200 request:0.165s]
+2025-02-22 22:18:34,901 - INFO - Successfully created index template: ocsf-1.1.0-3002-authentication
+2025-02-22 22:18:34,902 - INFO - Processing batch 1
+2025-02-22 22:18:35,119 - INFO - POST https://52.66.102.200:9200/_bulk [status:200 request:0.217s]
+2025-02-22 22:18:35,120 - INFO - Batch 1: 5 successful, 0 failed
+2025-02-22 22:18:35,120 - INFO - Processing batch 2
+2025-02-22 22:18:35,161 - INFO - POST https://52.66.102.200:9200/_bulk [status:200 request:0.040s]
+2025-02-22 22:18:35,162 - INFO - Batch 2: 5 successful, 0 failed
+2025-02-22 22:18:35,162 - INFO - ==================================================
+2025-02-22 22:18:35,162 - INFO - Upload complete to index: ocsf-1.1.0-3002-authentication-2025.02.22-000000
+2025-02-22 22:18:35,162 - INFO - Total events processed: 10
+2025-02-22 22:18:35,162 - INFO - Successfully uploaded: 10
+2025-02-22 22:18:35,162 - INFO - Failed uploads: 0
+2025-02-22 22:18:35,162 - INFO - Success rate: 100.00%
+2025-02-22 22:18:35,162 - INFO - ==================================================
