@@ -14,3 +14,19 @@
 2025-02-22 22:20:37,747 - INFO - Failed uploads: 0
 2025-02-22 22:20:37,747 - INFO - Success rate: 100.00%
 2025-02-22 22:20:37,747 - INFO - ==================================================
+2025-02-22 23:41:17,348 - INFO - Starting compliance finding event generation and upload
+2025-02-22 23:41:17,480 - INFO - PUT https://52.66.102.200:9200/_template/ocsf-1.1.0-2003-compliance_finding [status:200 request:0.132s]
+2025-02-22 23:41:17,481 - INFO - Successfully created index template: ocsf-1.1.0-2003-compliance_finding
+2025-02-22 23:41:17,481 - INFO - Processing batch 1
+2025-02-22 23:41:17,704 - INFO - POST https://52.66.102.200:9200/_bulk [status:200 request:0.223s]
+2025-02-22 23:41:17,705 - INFO - Batch 1: 5 successful, 0 failed
+2025-02-22 23:41:17,705 - INFO - Processing batch 2
+2025-02-22 23:41:17,739 - INFO - POST https://52.66.102.200:9200/_bulk [status:200 request:0.034s]
+2025-02-22 23:41:17,740 - INFO - Batch 2: 5 successful, 0 failed
+2025-02-22 23:41:17,740 - INFO - ==================================================
+2025-02-22 23:41:17,740 - INFO - Upload complete to index: ocsf-1.1.0-2003-compliance_finding-2025.02.22-000000
+2025-02-22 23:41:17,740 - INFO - Total events processed: 10
+2025-02-22 23:41:17,740 - INFO - Successfully uploaded: 10
+2025-02-22 23:41:17,740 - INFO - Failed uploads: 0
+2025-02-22 23:41:17,740 - INFO - Success rate: 100.00%
+2025-02-22 23:41:17,740 - INFO - ==================================================
