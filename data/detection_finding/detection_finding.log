@@ -1,11 +1,11 @@
 2025-02-22 22:11:32,378 - INFO - Starting detection finding event generation and upload
-2025-02-22 22:11:32,887 - INFO - PUT https://52.66.102.200:9200/_template/ocsf-1.1.0-2004-detection_finding [status:200 request:0.509s]
+2025-02-22 22:11:32,887 - INFO - PUT https://15.206.174.96:9200/_template/ocsf-1.1.0-2004-detection_finding [status:200 request:0.509s]
 2025-02-22 22:11:32,887 - INFO - Successfully created index template: ocsf-1.1.0-2004-detection_finding
 2025-02-22 22:11:32,889 - INFO - Processing batch 1/2
-2025-02-22 22:11:33,062 - INFO - POST https://52.66.102.200:9200/_bulk [status:200 request:0.173s]
+2025-02-22 22:11:33,062 - INFO - POST https://15.206.174.96:9200/_bulk [status:200 request:0.173s]
 2025-02-22 22:11:33,063 - INFO - Batch 1: 5 successful, 0 failed
 2025-02-22 22:11:33,063 - INFO - Processing batch 2/2
-2025-02-22 22:11:33,092 - INFO - POST https://52.66.102.200:9200/_bulk [status:200 request:0.028s]
+2025-02-22 22:11:33,092 - INFO - POST https://15.206.174.96:9200/_bulk [status:200 request:0.028s]
 2025-02-22 22:11:33,092 - INFO - Batch 2: 5 successful, 0 failed
 2025-02-22 22:11:33,092 - INFO - ==================================================
 2025-02-22 22:11:33,092 - INFO - Upload complete to index: ocsf-1.1.0-2004-detection_finding-2025.02.22-000000
@@ -15,13 +15,13 @@
 2025-02-22 22:11:33,092 - INFO - Success rate: 100.00%
 2025-02-22 22:11:33,093 - INFO - ==================================================
 2025-02-22 23:41:51,765 - INFO - Starting detection finding event generation and upload
-2025-02-22 23:41:51,920 - INFO - PUT https://52.66.102.200:9200/_template/ocsf-1.1.0-2004-detection_finding [status:200 request:0.154s]
+2025-02-22 23:41:51,920 - INFO - PUT https://15.206.174.96:9200/_template/ocsf-1.1.0-2004-detection_finding [status:200 request:0.154s]
 2025-02-22 23:41:51,920 - INFO - Successfully created index template: ocsf-1.1.0-2004-detection_finding
 2025-02-22 23:41:51,921 - INFO - Processing batch 1/2
-2025-02-22 23:41:52,337 - INFO - POST https://52.66.102.200:9200/_bulk [status:200 request:0.416s]
+2025-02-22 23:41:52,337 - INFO - POST https://15.206.174.96:9200/_bulk [status:200 request:0.416s]
 2025-02-22 23:41:52,337 - INFO - Batch 1: 5 successful, 0 failed
 2025-02-22 23:41:52,338 - INFO - Processing batch 2/2
-2025-02-22 23:41:52,377 - INFO - POST https://52.66.102.200:9200/_bulk [status:200 request:0.039s]
+2025-02-22 23:41:52,377 - INFO - POST https://15.206.174.96:9200/_bulk [status:200 request:0.039s]
 2025-02-22 23:41:52,377 - INFO - Batch 2: 5 successful, 0 failed
 2025-02-22 23:41:52,377 - INFO - ==================================================
 2025-02-22 23:41:52,378 - INFO - Upload complete to index: ocsf-1.1.0-2004-detection_finding-2025.02.22-000000
@@ -31,13 +31,13 @@
 2025-02-22 23:41:52,378 - INFO - Success rate: 100.00%
 2025-02-22 23:41:52,378 - INFO - ==================================================
 2025-02-22 23:42:03,509 - INFO - Starting detection finding event generation and upload
-2025-02-22 23:42:03,586 - INFO - PUT https://52.66.102.200:9200/_template/ocsf-1.1.0-2004-detection_finding [status:200 request:0.077s]
+2025-02-22 23:42:03,586 - INFO - PUT https://15.206.174.96:9200/_template/ocsf-1.1.0-2004-detection_finding [status:200 request:0.077s]
 2025-02-22 23:42:03,586 - INFO - Successfully created index template: ocsf-1.1.0-2004-detection_finding
 2025-02-22 23:42:03,587 - INFO - Processing batch 1/2
-2025-02-22 23:42:03,628 - INFO - POST https://52.66.102.200:9200/_bulk [status:200 request:0.041s]
+2025-02-22 23:42:03,628 - INFO - POST https://15.206.174.96:9200/_bulk [status:200 request:0.041s]
 2025-02-22 23:42:03,628 - INFO - Batch 1: 5 successful, 0 failed
 2025-02-22 23:42:03,628 - INFO - Processing batch 2/2
-2025-02-22 23:42:03,671 - INFO - POST https://52.66.102.200:9200/_bulk [status:200 request:0.042s]
+2025-02-22 23:42:03,671 - INFO - POST https://15.206.174.96:9200/_bulk [status:200 request:0.042s]
 2025-02-22 23:42:03,671 - INFO - Batch 2: 5 successful, 0 failed
 2025-02-22 23:42:03,671 - INFO - ==================================================
 2025-02-22 23:42:03,671 - INFO - Upload complete to index: ocsf-1.1.0-2004-detection_finding-2025.02.22-000000

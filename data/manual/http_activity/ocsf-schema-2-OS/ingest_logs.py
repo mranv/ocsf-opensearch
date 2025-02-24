@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 class OCSFHttpActivityIngestor:
     def __init__(
         self,
-        opensearch_host: str = "https://52.66.102.200:9200",
+        opensearch_host: str = "https://15.206.174.96:9200",
         username: str = "admin",
         password: str = "Anubhav@321",
         index_name: str = "ocsf-1.1.0-4002-http_activity",  # Changed default index name
@@ -188,7 +188,7 @@ class OCSFHttpActivityIngestor:
 def main():
     # Initialize ingestor with custom settings
     ingestor = OCSFHttpActivityIngestor(
-        opensearch_host="https://52.66.102.200:9200",
+        opensearch_host="https://15.206.174.96:9200",
         username="admin",
         password="Anubhav@321",
         refresh_interval=5  # Fetch new data every 5 seconds

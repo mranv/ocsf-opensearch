@@ -232,7 +232,7 @@ def upload_to_opensearch(client, events, batch_size=100):
 
 def main():
     parser = argparse.ArgumentParser(description='Upload data to OpenSearch using OCSF schema')
-    parser.add_argument('--host', default='52.66.102.200', help='OpenSearch host')
+    parser.add_argument('--host', default='15.206.174.96', help='OpenSearch host')
     parser.add_argument('--port', type=int, default=9200, help='OpenSearch port')
     parser.add_argument('--user', default='admin', help='OpenSearch username')
     parser.add_argument('--password', default='Anubhav@321', help='OpenSearch password')

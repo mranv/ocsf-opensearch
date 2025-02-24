@@ -8,7 +8,7 @@ from opensearchpy import OpenSearch, RequestsHttpConnection
 from datetime import datetime
 
 ## Initialise variables - Modified for localhost
-OSEndpoint = 'https://52.66.102.200:9200'
+OSEndpoint = 'https://15.206.174.96:9200'
 OS_USERNAME = 'admin'  # Default OpenSearch username, change as needed
 OS_PASSWORD = 'Anubhav@321'  # Default OpenSearch password, change as needed
 

@@ -1,19 +1,19 @@
 2025-02-22 21:58:59,936 - INFO - Starting account change event generation and upload
-2025-02-22 21:58:59,936 - INFO - Configuration: host=52.66.102.200, events=10, batch_size=5
-2025-02-22 21:58:59,936 - INFO - Connecting to OpenSearch at 52.66.102.200:9200
-2025-02-22 21:59:00,159 - INFO - GET https://52.66.102.200:9200/ [status:200 request:0.222s]
+2025-02-22 21:58:59,936 - INFO - Configuration: host=15.206.174.96, events=10, batch_size=5
+2025-02-22 21:58:59,936 - INFO - Connecting to OpenSearch at 15.206.174.96:9200
+2025-02-22 21:59:00,159 - INFO - GET https://15.206.174.96:9200/ [status:200 request:0.222s]
 2025-02-22 21:59:00,159 - INFO - Successfully connected to OpenSearch cluster: opensearch-cluster
 2025-02-22 21:59:00,159 - INFO - Creating/updating index template: ocsf-1.1.0-3001-account_change
-2025-02-22 21:59:00,239 - INFO - PUT https://52.66.102.200:9200/_template/ocsf-1.1.0-3001-account_change [status:200 request:0.080s]
+2025-02-22 21:59:00,239 - INFO - PUT https://15.206.174.96:9200/_template/ocsf-1.1.0-3001-account_change [status:200 request:0.080s]
 2025-02-22 21:59:00,239 - INFO - Successfully created index template: ocsf-1.1.0-3001-account_change
 2025-02-22 21:59:00,239 - INFO - Initialized AccountChangeGenerator with 10 users and 8 possible actions
 2025-02-22 21:59:00,239 - INFO - Generating 10 events...
 2025-02-22 21:59:00,240 - INFO - Uploading to index: ocsf-1.1.0-3001-account_change-2025.02.22-000000
 2025-02-22 21:59:00,240 - INFO - Processing batch 1/2 (5 events)
-2025-02-22 21:59:00,570 - INFO - POST https://52.66.102.200:9200/_bulk [status:200 request:0.330s]
+2025-02-22 21:59:00,570 - INFO - POST https://15.206.174.96:9200/_bulk [status:200 request:0.330s]
 2025-02-22 21:59:00,570 - INFO - Batch 1: Successfully uploaded 5 events
 2025-02-22 21:59:00,571 - INFO - Processing batch 2/2 (5 events)
-2025-02-22 21:59:00,601 - INFO - POST https://52.66.102.200:9200/_bulk [status:200 request:0.030s]
+2025-02-22 21:59:00,601 - INFO - POST https://15.206.174.96:9200/_bulk [status:200 request:0.030s]
 2025-02-22 21:59:00,601 - INFO - Batch 2: Successfully uploaded 5 events
 2025-02-22 21:59:00,601 - INFO - ==================================================
 2025-02-22 21:59:00,601 - INFO - Upload Summary:
@@ -23,21 +23,21 @@
 2025-02-22 21:59:00,601 - INFO - Success rate: 100.00%
 2025-02-22 21:59:00,601 - INFO - ==================================================
 2025-02-22 23:35:25,500 - INFO - Starting account change event generation and upload
-2025-02-22 23:35:25,500 - INFO - Configuration: host=52.66.102.200, events=10, batch_size=5
-2025-02-22 23:35:25,500 - INFO - Connecting to OpenSearch at 52.66.102.200:9200
-2025-02-22 23:35:25,583 - INFO - GET https://52.66.102.200:9200/ [status:200 request:0.082s]
+2025-02-22 23:35:25,500 - INFO - Configuration: host=15.206.174.96, events=10, batch_size=5
+2025-02-22 23:35:25,500 - INFO - Connecting to OpenSearch at 15.206.174.96:9200
+2025-02-22 23:35:25,583 - INFO - GET https://15.206.174.96:9200/ [status:200 request:0.082s]
 2025-02-22 23:35:25,583 - INFO - Successfully connected to OpenSearch cluster: opensearch-cluster
 2025-02-22 23:35:25,583 - INFO - Creating/updating index template: ocsf-1.1.0-3001-account_change
-2025-02-22 23:35:25,650 - INFO - PUT https://52.66.102.200:9200/_template/ocsf-1.1.0-3001-account_change [status:200 request:0.067s]
+2025-02-22 23:35:25,650 - INFO - PUT https://15.206.174.96:9200/_template/ocsf-1.1.0-3001-account_change [status:200 request:0.067s]
 2025-02-22 23:35:25,651 - INFO - Successfully created index template: ocsf-1.1.0-3001-account_change
 2025-02-22 23:35:25,651 - INFO - Initialized AccountChangeGenerator with 10 users and 8 possible actions
 2025-02-22 23:35:25,651 - INFO - Generating 10 events...
 2025-02-22 23:35:25,651 - INFO - Uploading to index: ocsf-1.1.0-3001-account_change-2025.02.22-000000
 2025-02-22 23:35:25,651 - INFO - Processing batch 1/2 (5 events)
-2025-02-22 23:35:26,159 - INFO - POST https://52.66.102.200:9200/_bulk [status:200 request:0.507s]
+2025-02-22 23:35:26,159 - INFO - POST https://15.206.174.96:9200/_bulk [status:200 request:0.507s]
 2025-02-22 23:35:26,159 - INFO - Batch 1: Successfully uploaded 5 events
 2025-02-22 23:35:26,159 - INFO - Processing batch 2/2 (5 events)
-2025-02-22 23:35:26,197 - INFO - POST https://52.66.102.200:9200/_bulk [status:200 request:0.037s]
+2025-02-22 23:35:26,197 - INFO - POST https://15.206.174.96:9200/_bulk [status:200 request:0.037s]
 2025-02-22 23:35:26,197 - INFO - Batch 2: Successfully uploaded 5 events
 2025-02-22 23:35:26,197 - INFO - ==================================================
 2025-02-22 23:35:26,197 - INFO - Upload Summary:

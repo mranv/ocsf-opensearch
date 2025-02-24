@@ -67,7 +67,7 @@ python sampledata.py --input parsed_logs.json [options]
 ```
 
 - **Options**:
-  - `--host`: OpenSearch host (default: 52.66.102.200)
+  - `--host`: OpenSearch host (default: 15.206.174.96)
   - `--port`: OpenSearch port (default: 9200)
   - `--user`: Username (default: admin)
   - `--password`: Password
