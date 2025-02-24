@@ -142,11 +142,9 @@ class APIActivityGenerator:
 
         # Add error details for failed requests
         if status != "Success":
-            event["api"]["response"]["error"] = {
-                "code": str(status_code),
-                "message": status_message,
-                "details": f"Failed to {method.lower()} {endpoint}"
-            }
+            event["api"]["response"]["error_code"] = str(status_code)
+            event["api"]["response"]["error_message"] = status_message
+            event["api"]["response"]["error_details"] = f"Failed to {method.lower()} {endpoint}"
 
         return event
 
@@ -178,10 +176,20 @@ def main():
         "template": {
             "settings": {
                 "number_of_shards": 1,
-                "number_of_replicas": 1
+                "number_of_replicas": 1,
+                "index.mapping.total_fields.limit": 10000
             },
             "mappings": {
                 "properties": {
+                    "class_uid": {"type": "long"},
+                    "class_name": {"type": "keyword"},
+                    "time": {"type": "date"},
+                    "activity_id": {"type": "long"},
+                    "activity_name": {"type": "keyword"},
+                    "status": {"type": "keyword"},
+                    "status_id": {"type": "long"},
+                    "severity": {"type": "keyword"},
+                    "severity_id": {"type": "long"},
                     "api": {
                         "properties": {
                             "request": {
@@ -189,7 +197,10 @@ def main():
                                     "method": {"type": "keyword"},
                                     "path": {"type": "keyword"},
                                     "version": {"type": "keyword"},
-                                    "headers": {"type": "object"},
+                                    "headers": {
+                                        "type": "object",
+                                        "enabled": True
+                                    },
                                     "body_size": {"type": "long"}
                                 }
                             },
@@ -197,14 +208,13 @@ def main():
                                 "properties": {
                                     "status_code": {"type": "integer"},
                                     "message": {"type": "keyword"},
-                                    "headers": {"type": "object"},
-                                    "error": {
-                                        "properties": {
-                                            "code": {"type": "keyword"},
-                                            "message": {"type": "text"},
-                                            "details": {"type": "text"}
-                                        }
-                                    }
+                                    "headers": {
+                                        "type": "object",
+                                        "enabled": True
+                                    },
+                                    "error_code": {"type": "keyword"},
+                                    "error_message": {"type": "keyword"},
+                                    "error_details": {"type": "text"}
                                 }
                             },
                             "service": {
@@ -213,6 +223,31 @@ def main():
                                     "version": {"type": "keyword"}
                                 }
                             }
+                        }
+                    },
+                    "actor": {
+                        "properties": {
+                            "user": {
+                                "properties": {
+                                    "name": {"type": "keyword"},
+                                    "uid": {"type": "keyword"},
+                                    "type": {"type": "keyword"}
+                                }
+                            }
+                        }
+                    },
+                    "src_endpoint": {
+                        "properties": {
+                            "ip": {"type": "ip"},
+                            "hostname": {"type": "keyword"},
+                            "port": {"type": "integer"}
+                        }
+                    },
+                    "dst_endpoint": {
+                        "properties": {
+                            "ip": {"type": "ip"},
+                            "hostname": {"type": "keyword"},
+                            "port": {"type": "integer"}
                         }
                     }
                 }
